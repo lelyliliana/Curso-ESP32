@@ -97,6 +97,19 @@ Cada práctica seguirá, cuando corresponda:
 9. manejo de fallos;
 10. reto.
 
+## Material disponible y evaluación
+
+El repositorio reúne 24 unidades (00–23), guías, ejemplos introductorios, plantillas, prácticas y proyectos por etapas. Las guías de proyectos orientan la implementación del firmware y los servicios elegidos. Cada montaje requiere comprobar sus versiones, compilación y funcionamiento físico.
+
+- [Arquitectura pedagógica](docs/ARQUITECTURA.md).
+- [Diagnóstico IoT por capas](docs/DIAGNOSTICO_IOT.md).
+- [Plantilla del proyecto final](unidad23-proyecto-final/PLANTILLA_PROYECTO.md).
+- [Checklist de aceptación](unidad23-proyecto-final/CHECKLIST.md).
+- [Rúbrica técnica de 100 puntos](unidad23-proyecto-final/RUBRICA.md).
+- [Alcance de la versión](VERSION.md).
+
+Documenta resultados reales, simulados y pendientes; conserva autoría/licencias y declara el uso de IA con las comprobaciones realizadas.
+
 ## Principio
 
 > Un dispositivo IoT no está terminado cuando logra conectarse una vez; debe poder funcionar, fallar, recuperarse y explicar qué está ocurriendo.

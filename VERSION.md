@@ -1,6 +1,6 @@
 # Versión 1.0
 
-Estado: **completa y disponible**.
+Estado: **recorrido didáctico 00–23 completo y disponible**.
 
 ## Alcance
 
@@ -26,6 +26,16 @@ La versión 1.0 contiene:
 - proyecto de control remoto;
 - proyecto final;
 - rúbrica técnica y checklist.
+
+## Integración de proyectos
+
+Las unidades 21–23 incluyen construcción por etapas, contratos, pruebas de fallos, plantillas de evidencia y criterios de aceptación. La rúbrica conserva un total de 100 puntos y explicita niveles de desempeño y aplicabilidad.
+
+## Alcance de la verificación
+
+“Completo” describe la cobertura del recorrido didáctico. Los proyectos son guías para implementar firmware y servicios según el montaje. No implica que todos los escenarios tengan una aplicación lista para cargar ni que hayan sido probados en todas las placas.
+
+Los ejemplos deben compilarse y comprobarse con el chip, core, bibliotecas y hardware elegidos. Los resultados físicos, simulados y pendientes se documentan por separado.
 
 ## Criterio de cierre
 
