@@ -1,14 +1,14 @@
-# Arquitectura pedagógica
+# Recorrido y criterios del curso
 
 ## Relación con Arduino
 
-ESP32 continúa el curso de Arduino. No repetirá de forma extensa electricidad básica, protoboard, LED, pulsadores, sensores elementales ni fundamentos de programación.
+El curso parte de conocimientos de electricidad básica, protoboard, LED, pulsadores, sensores y programación adquiridos en el [Curso de Arduino](https://github.com/lelyliliana/Curso-Arduino). El recorrido se centra en las particularidades de ESP32, la conectividad y el diseño de dispositivos IoT.
 
 ## Ejes
 
 Hardware ESP32 → conectividad → protocolos → IoT → robustez → energía → integración.
 
-## Reglas
+## Criterios para las prácticas
 
 - Identificar siempre la placa/familia exacta.
 - Tratar GPIO como lógica de 3.3 V salvo documentación específica.

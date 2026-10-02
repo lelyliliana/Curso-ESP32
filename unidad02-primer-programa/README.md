@@ -100,7 +100,7 @@ Antes de conectar sensores:
 
 En este programa mínimo delay es aceptable.
 
-Más adelante, conectividad y tareas requerirán temporización no bloqueante.
+Las prácticas de [temporización y tareas](../unidad05-interrupciones-tareas/) y [conectividad](../unidad06-wifi/) utilizan temporización no bloqueante para mantener la función local.
 
 # 11. Práctica guiada
 

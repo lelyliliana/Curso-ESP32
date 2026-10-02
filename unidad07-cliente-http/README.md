@@ -89,7 +89,7 @@ Debes planificar:
 
 TLS/certificados y timestamps pueden depender de un reloj razonable.
 
-La sincronización de tiempo se profundizará en arquitectura/robustez; no confundas “Wi‑Fi conectado” con “reloj correcto”.
+La [arquitectura IoT](../unidad13-arquitectura-iot/) y el [registro y sincronización](../unidad16-registro-sincronizacion/) explican la fuente de hora y su calidad; no confundas “Wi‑Fi conectado” con “reloj correcto”.
 
 # 10. Frecuencia
 

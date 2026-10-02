@@ -98,7 +98,7 @@ Integra dos I²C:
 2. scanner;
 3. uno por uno;
 4. juntos;
-5. activa Wi‑Fi más adelante y compara estabilidad.
+5. compara la estabilidad con Wi‑Fi activo utilizando la [Unidad 06](../unidad06-wifi/).
 
 # 13. Errores frecuentes
 - breakout 5 V conectado sin revisar pull-ups;
