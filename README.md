@@ -1,5 +1,7 @@
 # Curso de ESP32 e Internet de las Cosas
 
+**Versión 1.0**
+
 Curso abierto para avanzar desde prototipos con microcontroladores hacia **dispositivos conectados e Internet de las Cosas (IoT)** utilizando ESP32.
 
 Este curso asume conocimientos básicos de programación, circuitos, entradas/salidas, sensores y actuadores. Si comienzas desde cero, realiza primero el curso de Arduino.
