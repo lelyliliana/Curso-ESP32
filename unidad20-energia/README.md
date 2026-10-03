@@ -1,5 +1,7 @@
 # Unidad 20 — Consumo energético y deep sleep
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Diseñar y medir un ciclo de energía completo, conservando configuración y datos pendientes sin perder seguridad ni confundir sueño con una pausa.
 
@@ -125,3 +127,12 @@ Diseña un nodo que mide cada 10 minutos y soporta 24 h sin red. Calcula energí
 [Modos de sueño en ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/sleep_modes.html).
 
 [Anterior: OTA](../unidad19-ota/) · [Siguiente: nodo IoT ambiental](../unidad21-proyecto-nodo-iot/) · [Índice](../README.md)
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 19 — Actualizaciones OTA](../unidad19-ota/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 21 — Proyecto: nodo IoT ambiental](../unidad21-proyecto-nodo-iot/README.md)

@@ -1,5 +1,7 @@
 # Unidad 10 — MQTT: publish/subscribe y diseño de topics
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Comprender broker, sesiones, QoS, retained messages y diseñar topics que separen telemetría, estado y comandos.
 
@@ -140,3 +142,12 @@ Diseña namespace escalable para 10 nodos y una política básica de quién publ
 - [ ] Broker no expuesto.
 
 Continúa con telemetría y control.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 09 — API HTTP/REST básica en el dispositivo](../unidad09-api-rest/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 11 — Telemetría, control y operación degradada](../unidad11-telemetria-control/README.md)

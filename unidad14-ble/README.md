@@ -1,5 +1,7 @@
 # Unidad 14 — Bluetooth y BLE
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Diseñar un servicio BLE para leer mediciones y configurar un nodo cercano, sin confundir conexión, permiso y confirmación de una acción.
 
@@ -101,3 +103,12 @@ Diseña un nodo configurable desde dos móviles: determina quién puede cambiar 
 - [API Bluetooth de ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/bluetooth/index.html).
 
 [Anterior: arquitectura IoT](../unidad13-arquitectura-iot/) · [Siguiente: almacenamiento](../unidad15-almacenamiento/) · [Índice](../README.md)
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 13 — Arquitectura de un sistema IoT](../unidad13-arquitectura-iot/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 15 — Almacenamiento y configuración](../unidad15-almacenamiento/README.md)

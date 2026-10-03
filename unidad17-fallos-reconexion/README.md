@@ -1,5 +1,7 @@
 # Unidad 17 — Manejo de fallos y reconexión
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Detectar fallos por capa, mantener la función local y recuperar servicios sin bucles agresivos ni reinicios como mecanismo normal.
 
@@ -98,3 +100,12 @@ Diseña el comportamiento de 30 nodos tras volver la energía y el broker. Defin
 - [ ] Matriz y evidencias de pruebas.
 
 [Anterior: sincronización](../unidad16-registro-sincronizacion/) · [Siguiente: seguridad](../unidad18-seguridad/) · [Índice](../README.md)
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 16 — Registro local y sincronización](../unidad16-registro-sincronizacion/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 18 — Credenciales y seguridad básica](../unidad18-seguridad/README.md)

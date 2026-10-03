@@ -1,5 +1,7 @@
 # Unidad 13 — Arquitectura de un sistema IoT
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Diseñar el sistema completo desde la medición hasta la decisión del usuario y el camino inverso de control, incluyendo fallos, seguridad, tiempo y energía.
 
@@ -217,3 +219,12 @@ Arquitectura completa para 30 nodos que pueda operar degradada y recuperarse sin
 - [ ] Observabilidad.
 
 Continúa con BLE.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 12 — JSON y contratos de mensajes](../unidad12-json-mensajes/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 14 — Bluetooth y BLE](../unidad14-ble/README.md)

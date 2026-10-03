@@ -1,5 +1,7 @@
 # Unidad 09 — API HTTP/REST básica en el dispositivo
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Diseñar un contrato estable para lectura/control, usar métodos/códigos coherentes y validar antes de actuar sobre hardware.
 
@@ -146,3 +148,12 @@ API con errores consistentes y operación de control segura ante reintento.
 - [ ] Reintentos considerados.
 
 Continúa con MQTT.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 08 — Servidor web local en ESP32](../unidad08-servidor-web/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 10 — MQTT: publish/subscribe y diseño de topics](../unidad10-mqtt/README.md)

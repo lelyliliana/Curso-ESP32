@@ -1,5 +1,11 @@
 # Curso de ESP32 e Internet de las Cosas
 
+**[Comenzar el curso: Unidad 00 — Preparación, seguridad y placa ESP32](unidad00-preparacion/README.md)**
+
+Puedes leer las lecciones aquí sin conocer GitHub. Al terminar cada unidad, usa **Siguiente unidad** para avanzar; **Unidad anterior** y **Volver al índice** te permiten regresar.
+
+[Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 **Versión 1.0**
 
 Curso abierto para avanzar desde prototipos con microcontroladores hacia **dispositivos conectados e Internet de las Cosas (IoT)** utilizando ESP32.

@@ -1,5 +1,7 @@
 # Unidad 07 — Cliente HTTP y consumo de APIs
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Hacer solicitudes con timeout, interpretar HTTP correctamente y separar fallo Wi‑Fi, DNS/TCP/TLS, código HTTP y contenido inválido.
 
@@ -148,3 +150,12 @@ Función cliente que devuelva una categoría de resultado clara y no bloquee ind
 - [ ] Frecuencia razonable.
 
 Continúa con servidor web.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 06 — Wi‑Fi, estados y reconexión](../unidad06-wifi/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 08 — Servidor web local en ESP32](../unidad08-servidor-web/README.md)

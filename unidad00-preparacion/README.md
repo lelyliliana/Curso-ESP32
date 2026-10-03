@@ -1,5 +1,7 @@
 # Unidad 00 — Preparación, seguridad y placa ESP32
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Identificar exactamente tu ESP32, preparar el entorno y evitar dos errores comunes: copiar un pinout de otra placa y aplicar 5 V a GPIO de 3.3 V.
 
@@ -164,3 +166,11 @@ Entrega la ficha técnica y explica tres diferencias entre tu placa y otra famil
 - [ ] Sin secretos.
 
 Continúa con arquitectura y GPIO.
+
+
+---
+
+## Continuar el curso
+
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 01 — Arquitectura, GPIO y elección de pines](../unidad01-arquitectura-gpio/README.md)

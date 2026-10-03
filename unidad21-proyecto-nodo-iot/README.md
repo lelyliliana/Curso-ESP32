@@ -1,5 +1,7 @@
 # Unidad 21 — Proyecto: nodo IoT ambiental
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué construirás
 Un nodo ESP32 que mide una variable ambiental, publica datos con calidad e identidad, conserva pendientes durante una caída y se recupera de forma observable.
 
@@ -130,3 +132,12 @@ Añade tres nodos con identidades distintas y provoca una caída común. Evalúa
 - [ ] Evidencias y limitaciones explícitas.
 
 [Anterior: energía](../unidad20-energia/) · [Siguiente: control remoto](../unidad22-proyecto-control/) · [Índice](../README.md)
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 20 — Consumo energético y deep sleep](../unidad20-energia/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 22 — Proyecto: control remoto](../unidad22-proyecto-control/README.md)

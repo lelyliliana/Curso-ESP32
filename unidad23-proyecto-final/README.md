@@ -1,5 +1,7 @@
 # Unidad 23 — Proyecto final IoT
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Propósito
 Diseñar, implementar y evaluar un sistema ESP32 de extremo a extremo, justificando hardware, datos, conectividad, funcionamiento degradado y mantenimiento.
 
@@ -132,3 +134,13 @@ Responde:
 IoT exige diseñar la relación entre mundo físico, software y servicios, incluyendo sus fallos. El proyecto demuestra esa relación mediante una implementación acotada, resultados reproducibles y límites reconocidos.
 
 [Anterior: control remoto](../unidad22-proyecto-control/) · [Índice del curso](../README.md)
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 22 — Proyecto: control remoto](../unidad22-proyecto-control/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+
+Llegaste a la última unidad. Revisa tu proyecto y la lista de comprobación antes de dar por terminado el curso.

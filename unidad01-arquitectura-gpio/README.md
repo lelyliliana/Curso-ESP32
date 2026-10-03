@@ -1,5 +1,7 @@
 # Unidad 01 — Arquitectura, GPIO y elección de pines
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Elegir GPIO a partir de la documentación real de tu chip/placa y comprender por qué un pin físicamente expuesto puede no ser apropiado para cualquier función.
 
@@ -141,3 +143,12 @@ Crea dos planes de pines válidos para tu placa y explica ventajas/conflictos de
 - [ ] Conflictos detectados.
 
 Continúa con primer programa.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 00 — Preparación, seguridad y placa ESP32](../unidad00-preparacion/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 02 — Primer programa, arranque y diagnóstico serial](../unidad02-primer-programa/README.md)

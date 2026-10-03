@@ -1,5 +1,7 @@
 # Unidad 16 — Registro local y sincronización
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Diseñar una cola finita que conserve mediciones durante una caída y sincronice sin perder registros silenciosamente ni duplicar efectos.
 
@@ -100,3 +102,12 @@ Diseña una cola para 24 h sin red, con medición cada 10 s y almacenamiento fin
 - [ ] Reenvío sin bloquear control.
 
 [Anterior: almacenamiento](../unidad15-almacenamiento/) · [Siguiente: fallos](../unidad17-fallos-reconexion/) · [Índice](../README.md)
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 15 — Almacenamiento y configuración](../unidad15-almacenamiento/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 17 — Manejo de fallos y reconexión](../unidad17-fallos-reconexion/README.md)

@@ -1,5 +1,7 @@
 # Unidad 06 — Wi‑Fi, estados y reconexión
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Conectar un ESP32 sin bloquear el dispositivo, modelar estados de red y diseñar reintentos que no destruyan autonomía local.
 
@@ -160,3 +162,12 @@ Nodo que mida continuamente durante 5 min sin red y recupere Wi‑Fi automática
 - [ ] Credenciales protegidas.
 
 Continúa con HTTP.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 05 — Interrupciones, temporización y tareas](../unidad05-interrupciones-tareas/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 07 — Cliente HTTP y consumo de APIs](../unidad07-cliente-http/README.md)

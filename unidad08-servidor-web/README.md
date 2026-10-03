@@ -1,5 +1,7 @@
 # Unidad 08 — Servidor web local en ESP32
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Exponer una interfaz de diagnóstico/control en LAN sin confundir un servidor educativo local con un servicio seguro para Internet.
 
@@ -130,3 +132,12 @@ Panel local que muestre estado, lectura válida/inválida y permita una acción 
 - [ ] LAN no expuesta públicamente.
 
 Continúa con API REST.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 07 — Cliente HTTP y consumo de APIs](../unidad07-cliente-http/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 09 — API HTTP/REST básica en el dispositivo](../unidad09-api-rest/README.md)

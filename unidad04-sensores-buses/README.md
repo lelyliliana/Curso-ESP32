@@ -1,5 +1,7 @@
 # Unidad 04 — Sensores, I²C y SPI en ESP32
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Integrar periféricos respetando 3.3 V, asignación de pines, pull-ups, direcciones y concurrencia con otros subsistemas.
 
@@ -128,3 +130,12 @@ Dos sensores I²C + periférico SPI con tabla de buses, niveles y recursos.
 - [ ] Integración observada.
 
 Continúa con interrupciones y tareas.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 03 — GPIO, ADC y PWM en ESP32](../unidad03-io-adc-pwm/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 05 — Interrupciones, temporización y tareas](../unidad05-interrupciones-tareas/README.md)

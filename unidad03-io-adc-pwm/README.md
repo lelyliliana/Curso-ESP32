@@ -1,5 +1,7 @@
 # Unidad 03 — GPIO, ADC y PWM en ESP32
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Trasladar los fundamentos de Arduino sin asumir resoluciones, rangos, pines o APIs idénticas entre familias/core ESP32.
 
@@ -124,3 +126,12 @@ Controla PWM desde una entrada analógica y documenta todas las suposiciones esp
 - [ ] Sin extrapolar otra familia.
 
 Continúa con sensores y buses.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 02 — Primer programa, arranque y diagnóstico serial](../unidad02-primer-programa/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 04 — Sensores, I²C y SPI en ESP32](../unidad04-sensores-buses/README.md)

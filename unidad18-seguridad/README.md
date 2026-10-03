@@ -1,5 +1,7 @@
 # Unidad 18 — Credenciales y seguridad básica
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Construir un modelo de amenazas y separar confidencialidad, autenticación, autorización, integridad y seguridad física del control.
 
@@ -89,3 +91,12 @@ Diseña provisioning y rotación para 30 nodos, incluyendo uno perdido y un camb
 [Seguridad de ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/security/security.html).
 
 [Anterior: fallos](../unidad17-fallos-reconexion/) · [Siguiente: OTA](../unidad19-ota/) · [Índice](../README.md)
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 17 — Manejo de fallos y reconexión](../unidad17-fallos-reconexion/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 19 — Actualizaciones OTA](../unidad19-ota/README.md)

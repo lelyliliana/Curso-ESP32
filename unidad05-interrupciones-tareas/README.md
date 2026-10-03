@@ -1,5 +1,7 @@
 # Unidad 05 — Interrupciones, temporización y tareas
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Elegir entre loop cooperativo, interrupciones y tareas, evitando condiciones de carrera y trabajo inseguro dentro de una ISR.
 
@@ -162,3 +164,12 @@ Compara un nodo sensor con loop cooperativo y con dos tareas. Elige uno y defien
 - [ ] Watchdog respetado.
 
 Continúa con Wi‑Fi.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 04 — Sensores, I²C y SPI en ESP32](../unidad04-sensores-buses/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 06 — Wi‑Fi, estados y reconexión](../unidad06-wifi/README.md)

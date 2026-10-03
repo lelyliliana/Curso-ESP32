@@ -1,5 +1,7 @@
 # Unidad 11 — Telemetría, control y operación degradada
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Publicar mediciones, recibir comandos validados y mantener función local aunque Wi‑Fi o broker fallen.
 
@@ -164,3 +166,12 @@ Nodo que funcione 10 min sin broker, mantenga control local y recupere telemetr�
 - [ ] Fail-safe.
 
 Continúa con JSON.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 10 — MQTT: publish/subscribe y diseño de topics](../unidad10-mqtt/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 12 — JSON y contratos de mensajes](../unidad12-json-mensajes/README.md)

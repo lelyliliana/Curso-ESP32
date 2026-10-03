@@ -1,5 +1,7 @@
 # Unidad 22 — Proyecto: control remoto
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué construirás
 Un sistema que recibe solicitudes de cambio, valida autorización y vigencia, aplica una salida segura y reporta qué ocurrió.
 
@@ -140,3 +142,12 @@ Añade un segundo cliente: resuelve cambios simultáneos sin suponer que el últ
 - [ ] Prioridad local y pruebas.
 
 [Anterior: nodo ambiental](../unidad21-proyecto-nodo-iot/) · [Siguiente: proyecto final](../unidad23-proyecto-final/) · [Índice](../README.md)
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 21 — Proyecto: nodo IoT ambiental](../unidad21-proyecto-nodo-iot/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 23 — Proyecto final IoT](../unidad23-proyecto-final/README.md)

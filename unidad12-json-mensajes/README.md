@@ -1,5 +1,7 @@
 # Unidad 12 — JSON y contratos de mensajes
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Diseñar payloads versionados, limitados y validables, distinguiendo ausencia, null, dato inválido y error.
 
@@ -143,3 +145,12 @@ Diseña telemetría y comando v1 con tabla de campos y diez casos de validación
 - [ ] Tamaño limitado.
 
 Continúa con arquitectura IoT.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 11 — Telemetría, control y operación degradada](../unidad11-telemetria-control/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 13 — Arquitectura de un sistema IoT](../unidad13-arquitectura-iot/README.md)

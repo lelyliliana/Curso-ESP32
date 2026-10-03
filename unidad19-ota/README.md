@@ -1,5 +1,7 @@
 # Unidad 19 — Actualizaciones OTA
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Diseñar una actualización de firmware verificable y recuperable, incluyendo primer arranque y compatibilidad de datos.
 
@@ -97,3 +99,12 @@ Diseña OTA para un nodo con batería y cola offline: decide cuándo actualizar,
 [OTA y rollback en ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/ota.html).
 
 [Anterior: seguridad](../unidad18-seguridad/) · [Siguiente: energía](../unidad20-energia/) · [Índice](../README.md)
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 18 — Credenciales y seguridad básica](../unidad18-seguridad/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 20 — Consumo energético y deep sleep](../unidad20-energia/README.md)

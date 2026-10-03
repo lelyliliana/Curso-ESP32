@@ -1,5 +1,7 @@
 # Unidad 02 — Primer programa, arranque y diagnóstico serial
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Distinguir compilación, carga, boot y ejecución, y usar Serial para diagnosticar una placa ESP32 antes de integrar periféricos.
 
@@ -137,3 +139,12 @@ Crea un sketch de diagnóstico que informe uptime y permita reconocer reinicios 
 - [ ] Baseline reproducible.
 
 Continúa con E/S, ADC y PWM.
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 01 — Arquitectura, GPIO y elección de pines](../unidad01-arquitectura-gpio/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 03 — GPIO, ADC y PWM en ESP32](../unidad03-io-adc-pwm/README.md)

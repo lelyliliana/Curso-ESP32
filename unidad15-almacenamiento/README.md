@@ -1,5 +1,7 @@
 # Unidad 15 — Almacenamiento y configuración
 
+[Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
+
 ## Qué aprenderás
 Conservar parámetros entre reinicios y distinguir configuración, estado temporal y registros históricos, con validación y recuperación.
 
@@ -121,3 +123,12 @@ Diseña una configuración con umbral, intervalo y versión, que sobreviva a rei
 - [NVS](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/storage/nvs_flash.html).
 
 [Anterior: BLE](../unidad14-ble/) · [Siguiente: sincronización](../unidad16-registro-sincronizacion/) · [Índice](../README.md)
+
+
+---
+
+## Continuar el curso
+
+- **Unidad anterior:** [Unidad 14 — Bluetooth y BLE](../unidad14-ble/README.md)
+- **Volver al índice:** [Todas las unidades](../README.md)
+- **Siguiente unidad:** [Unidad 16 — Registro local y sincronización](../unidad16-registro-sincronizacion/README.md)
