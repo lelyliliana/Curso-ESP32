@@ -100,3 +100,11 @@ Diseña provisioning y rotación para 30 nodos, incluyendo uno perdido y un camb
 - **Unidad anterior:** [Unidad 17 — Manejo de fallos y reconexión](../unidad17-fallos-reconexion/README.md)
 - **Volver al índice:** [Todas las unidades](../README.md)
 - **Siguiente unidad:** [Unidad 19 — Actualizaciones OTA](../unidad19-ota/README.md)
+
+---
+
+### ¿Necesitas apoyo con este tema?
+
+Si te bloqueaste con la práctica, necesitas revisar tu entorno o adaptar lo aprendido a tu proyecto, podemos trabajarlo en una sesión personalizada.
+
+[**Solicitar asesoría para este tema por WhatsApp**](https://wa.me/573103618296?text=Hola%2C%20Leli.%20Estoy%20estudiando%20Unidad%2018%20%E2%80%94%20Credenciales%20y%20seguridad%20b%C3%A1sica%20del%20curso%20ESP32%20e%20Internet%20de%20las%20Cosas%20%28https%3A%2F%2Fgithub.com%2Flelyliliana%2FCurso-ESP32%2Ftree%2Fmain%2Funidad18-seguridad%29%20y%20necesito%20una%20asesor%C3%ADa%20personalizada.%20Mi%20duda%20es%E2%80%A6)

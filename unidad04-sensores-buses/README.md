@@ -139,3 +139,11 @@ Continúa con interrupciones y tareas.
 - **Unidad anterior:** [Unidad 03 — GPIO, ADC y PWM en ESP32](../unidad03-io-adc-pwm/README.md)
 - **Volver al índice:** [Todas las unidades](../README.md)
 - **Siguiente unidad:** [Unidad 05 — Interrupciones, temporización y tareas](../unidad05-interrupciones-tareas/README.md)
+
+---
+
+### ¿Necesitas apoyo con este tema?
+
+Si te bloqueaste con la práctica, necesitas revisar tu entorno o adaptar lo aprendido a tu proyecto, podemos trabajarlo en una sesión personalizada.
+
+[**Solicitar asesoría para este tema por WhatsApp**](https://wa.me/573103618296?text=Hola%2C%20Leli.%20Estoy%20estudiando%20Unidad%2004%20%E2%80%94%20Sensores%2C%20I2C%20y%20SPI%20del%20curso%20ESP32%20e%20Internet%20de%20las%20Cosas%20%28https%3A%2F%2Fgithub.com%2Flelyliliana%2FCurso-ESP32%2Ftree%2Fmain%2Funidad04-sensores-buses%29%20y%20necesito%20una%20asesor%C3%ADa%20personalizada.%20Mi%20duda%20es%E2%80%A6)
