@@ -106,6 +106,15 @@ Diseña una cola para 24 h sin red, con medición cada 10 s y almacenamiento fin
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Reenviar un pendiente con identidad estable tras pérdida de respuesta.
+
+**Alcance:** No es cola de 200 muestras ni almacenamiento de temperatura. Un borrado de NVS exige nueva identidad de dispositivo para evitar colisiones.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 15 — Almacenamiento y configuración](../unidad15-almacenamiento/README.md)

@@ -146,6 +146,15 @@ Continúa con telemetría y control.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Publicar telemetría mediante broker autenticado.
+
+**Alcance:** Sin TLS: broker autorizado de LAN, sin puertos redirigidos a Internet.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 09 — API HTTP/REST básica en el dispositivo](../unidad09-api-rest/README.md)

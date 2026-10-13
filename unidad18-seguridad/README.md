@@ -95,6 +95,15 @@ Diseña provisioning y rotación para 30 nodos, incluyendo uno perdido y un camb
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Validar TLS usando CA y hostname sin setInsecure.
+
+**Alcance:** Requiere endpoint propio y hora NTP; no simula éxito TLS ni da una CA universal.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 17 — Manejo de fallos y reconexión](../unidad17-fallos-reconexion/README.md)

@@ -131,6 +131,15 @@ Diseña un nodo que mide cada 10 minutos y soporta 24 h sin red. Calcula energí
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Observar despertar por timer y memoria RTC.
+
+**Alcance:** No afirma microamperios reales ni activa Wi-Fi; debes medir tu montaje.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 19 — Actualizaciones OTA](../unidad19-ota/README.md)

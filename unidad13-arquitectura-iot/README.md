@@ -223,6 +223,15 @@ Continúa con BLE.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Separar adquisición, transporte y degradación.
+
+**Alcance:** Modelo ejecutable de estados, no un nodo conectado; el estado LOCAL inicial cambia al primer tick.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 12 — JSON y contratos de mensajes](../unidad12-json-mensajes/README.md)

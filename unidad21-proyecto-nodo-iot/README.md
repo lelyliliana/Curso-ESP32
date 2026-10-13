@@ -5,7 +5,7 @@
 ## Qué construirás
 Un nodo ESP32 que mide una variable ambiental, publica datos con calidad e identidad, conserva pendientes durante una caída y se recupera de forma observable.
 
-Este proyecto integra las unidades anteriores. Es una guía de construcción: debes implementar y verificar el firmware y el servicio elegidos. No incluye una aplicación completa precompilada ni resultados de hardware ya comprobados.
+Este proyecto integra las unidades anteriores. Es una guía de construcción: debes implementar y verificar el firmware y el servicio elegidos. Incluye una base de firmware en LABORATORIO.md; el alcance avanzado descrito aquí requiere ampliarla y verificarla. No incluye resultados de hardware ya comprobados.
 
 ## 1. Alcance mínimo
 Elige una variable y un sensor compatible. Empieza con lecturas simuladas para comprobar el flujo; luego integra el sensor real y distingue ambas fuentes en tus evidencias.
@@ -135,6 +135,15 @@ Añade tres nodos con identidades distintas y provoca una caída común. Evalúa
 
 
 ---
+
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Construir una base de nodo ambiental con sensor real.
+
+**Alcance:** Base mínima reproducible. Los requisitos avanzados de README (200 registros, jitter, dashboard) son extensión evaluada, no capacidad de este firmware.
 
 ## Continuar el curso
 

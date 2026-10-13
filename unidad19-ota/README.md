@@ -103,6 +103,15 @@ Diseña OTA para un nodo con batería y cola offline: decide cuándo actualizar,
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Actualizar por OTA local y verificar versión después del arranque.
+
+**Alcance:** ArduinoOTA local no equivale a OTA firmada de flota. Autenticación no cifra todo el proceso; sin redirección a Internet.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 18 — Credenciales y seguridad básica](../unidad18-seguridad/README.md)

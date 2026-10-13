@@ -7,7 +7,7 @@ Un sistema que recibe solicitudes de cambio, valida autorización y vigencia, ap
 
 La práctica inicial utiliza un LED externo con resistencia apropiada. Para motores u otras cargas de baja tensión utiliza una etapa de potencia compatible y alimentación adecuada; un GPIO no alimenta directamente esas cargas. No controles red eléctrica en este proyecto educativo.
 
-Esta unidad guía la implementación: no incluye firmware de control ni servicio remoto completos ya probados.
+Esta unidad incluye firmware base de control de LED en LABORATORIO.md. La guía amplía su alcance hacia autoridad, orden y vigencia; esos mecanismos no se consideran implementados por el ejemplo mínimo.
 
 ## 1. Alcance y canal
 Elige MQTT, HTTP o BLE según tu escenario. Implementa un canal completo antes de integrar otros. Conserva operación local y establece quién tiene autoridad para cambiar la salida.
@@ -145,6 +145,15 @@ Añade un segundo cliente: resuelve cambios simultáneos sin suponer que el últ
 
 
 ---
+
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Construir control remoto de laboratorio con estado seguro explícito.
+
+**Alcance:** No incluye command_id/expiración UTC ni registro de autoridad por emisor; son extensiones del proyecto, no promesas.
 
 ## Continuar el curso
 

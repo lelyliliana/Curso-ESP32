@@ -1,0 +1,106 @@
+[
+  {
+    "unidad": 0,
+    "sketch": "unidad00-preparacion/ejemplos/identidad/identidad.ino"
+  },
+  {
+    "unidad": 1,
+    "sketch": "unidad01-arquitectura-gpio/ejemplos/pines/pines.ino"
+  },
+  {
+    "unidad": 2,
+    "sketch": "unidad02-primer-programa/ejemplos/latido/latido.ino"
+  },
+  {
+    "unidad": 3,
+    "sketch": "unidad03-io-adc-pwm/ejemplos/adc_pwm/adc_pwm.ino"
+  },
+  {
+    "unidad": 4,
+    "sketch": "unidad04-sensores-buses/ejemplos/i2c_sht31/i2c_sht31.ino"
+  },
+  {
+    "unidad": 4,
+    "sketch": "unidad04-sensores-buses/ejemplos/spi_loopback/spi_loopback.ino"
+  },
+  {
+    "unidad": 5,
+    "sketch": "unidad05-interrupciones-tareas/ejemplos/interrupcion/interrupcion.ino"
+  },
+  {
+    "unidad": 5,
+    "sketch": "unidad05-interrupciones-tareas/ejemplos/tarea_cola/tarea_cola.ino"
+  },
+  {
+    "unidad": 6,
+    "sketch": "unidad06-wifi/ejemplos/wifi_estado/wifi_estado.ino"
+  },
+  {
+    "unidad": 7,
+    "sketch": "unidad07-cliente-http/ejemplos/cliente_http/cliente_http.ino"
+  },
+  {
+    "unidad": 8,
+    "sketch": "unidad08-servidor-web/ejemplos/servidor_web/servidor_web.ino"
+  },
+  {
+    "unidad": 9,
+    "sketch": "unidad09-api-rest/ejemplos/api_led/api_led.ino"
+  },
+  {
+    "unidad": 10,
+    "sketch": "unidad10-mqtt/ejemplos/mqtt_publicar/mqtt_publicar.ino"
+  },
+  {
+    "unidad": 11,
+    "sketch": "unidad11-telemetria-control/ejemplos/mqtt_control/mqtt_control.ino"
+  },
+  {
+    "unidad": 12,
+    "sketch": "unidad12-json-mensajes/ejemplos/contrato_json/contrato_json.ino"
+  },
+  {
+    "unidad": 13,
+    "sketch": "unidad13-arquitectura-iot/ejemplos/arquitectura_estado/arquitectura_estado.ino"
+  },
+  {
+    "unidad": 14,
+    "sketch": "unidad14-ble/ejemplos/ble_lectura/ble_lectura.ino"
+  },
+  {
+    "unidad": 15,
+    "sketch": "unidad15-almacenamiento/ejemplos/preferencias/preferencias.ino"
+  },
+  {
+    "unidad": 16,
+    "sketch": "unidad16-registro-sincronizacion/ejemplos/cola_offline/cola_offline.ino"
+  },
+  {
+    "unidad": 17,
+    "sketch": "unidad17-fallos-reconexion/ejemplos/backoff/backoff.ino"
+  },
+  {
+    "unidad": 18,
+    "sketch": "unidad18-seguridad/ejemplos/https_validado/https_validado.ino"
+  },
+  {
+    "unidad": 19,
+    "sketch": "unidad19-ota/ejemplos/ota_local/ota_local.ino"
+  },
+  {
+    "unidad": 20,
+    "sketch": "unidad20-energia/ejemplos/deep_sleep/deep_sleep.ino"
+  },
+  {
+    "unidad": 21,
+    "sketch": "unidad21-proyecto-nodo-iot/ejemplos/nodo_ambiental/nodo_ambiental.ino"
+  },
+  {
+    "unidad": 22,
+    "sketch": "unidad22-proyecto-control/ejemplos/control_remoto/control_remoto.ino"
+  },
+  {
+    "unidad": 23,
+    "sketch": "unidad23-proyecto-final/ejemplos/integrador/integrador.ino"
+  }
+]

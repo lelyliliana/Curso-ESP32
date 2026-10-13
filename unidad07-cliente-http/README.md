@@ -154,6 +154,15 @@ Continúa con servidor web.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Observar contrato y fallos de un cliente HTTP.
+
+**Alcance:** HTTP de LAN no cifra datos ni autentica el servidor; solo usa datos de laboratorio.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 06 — Wi‑Fi, estados y reconexión](../unidad06-wifi/README.md)

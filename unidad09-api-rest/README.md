@@ -152,6 +152,15 @@ Continúa con MQTT.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Validar y aplicar una API de estado deseado.
+
+**Alcance:** No hay autenticación de esta API: solo LED en LAN de laboratorio. Unidad18 aborda transporte protegido.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 08 — Servidor web local en ESP32](../unidad08-servidor-web/README.md)

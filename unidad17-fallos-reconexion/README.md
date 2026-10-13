@@ -104,6 +104,15 @@ Diseña el comportamiento de 30 nodos tras volver la energía y el broker. Defin
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Ver crecimiento de backoff y reinicio tras recuperación.
+
+**Alcance:** El ejemplo enseña backoff determinista, no afirma que todos los clientes del curso ya lo implementen.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 16 — Registro local y sincronización](../unidad16-registro-sincronizacion/README.md)

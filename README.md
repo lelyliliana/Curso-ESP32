@@ -6,11 +6,15 @@ Puedes leer las lecciones aquí sin conocer GitHub. Al terminar cada unidad, usa
 
 [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
-**Versión 1.0**
+**Versión 1.1 (laboratorios de referencia)**
 
 Curso abierto para avanzar desde prototipos con microcontroladores hacia **dispositivos conectados e Internet de las Cosas (IoT)** utilizando ESP32.
 
 Este curso asume conocimientos básicos de programación, circuitos, entradas/salidas, sensores y actuadores. Si comienzas desde cero, realiza primero el curso de Arduino.
+
+## Comienza con una práctica reproducible
+
+Consulta el [entorno fijado y montaje de referencia](docs/ENTORNO.md), los [24 laboratorios progresivos](laboratorios/README.md) y los [servicios locales HTTP/MQTT](laboratorios/servicios/README.md). Cada unidad enlaza programa completo, experimento, resultado esperado y soluciones razonadas. Revisa [qué se verificó](docs/VERIFICACION.md) antes de interpretar una compilación como prueba física.
 
 ## Objetivo
 
@@ -105,7 +109,7 @@ Cada práctica seguirá, cuando corresponda:
 
 ## Material disponible y evaluación
 
-El repositorio reúne 24 unidades (00–23), guías, ejemplos introductorios, plantillas, prácticas y proyectos por etapas. Las guías de proyectos orientan la implementación del firmware y los servicios elegidos. Cada montaje requiere comprobar sus versiones, compilación y funcionamiento físico.
+El repositorio reúne 24 unidades (00–23), guías, ejemplos introductorios, plantillas, prácticas y proyectos por etapas. Las guías de proyectos conservan el alcance avanzado; los laboratorios incorporan bases ejecutables de sensor ambiental, control de LED e integración, con límites explícitos. Cada montaje requiere comprobar sus versiones, compilación y funcionamiento físico.
 
 - [Arquitectura pedagógica](docs/ARQUITECTURA.md).
 - [Diagnóstico IoT por capas](docs/DIAGNOSTICO_IOT.md).

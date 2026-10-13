@@ -149,6 +149,15 @@ Continúa con arquitectura IoT.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Distinguir datos numéricos de textos y rechazar mensajes incompletos.
+
+**Alcance:** Contrato pequeño autónomo; el proyecto ambiental tiene además humedad y uptime y valida según su propio esquema.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 11 — Telemetría, control y operación degradada](../unidad11-telemetria-control/README.md)

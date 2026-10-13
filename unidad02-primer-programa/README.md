@@ -143,6 +143,15 @@ Continúa con E/S, ADC y PWM.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Separar arranque y tarea periódica.
+
+**Alcance:** Sin Wi-Fi ni procesos concurrentes; no demuestra tiempo real estricto.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 01 — Arquitectura, GPIO y elección de pines](../unidad01-arquitectura-gpio/README.md)

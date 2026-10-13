@@ -147,6 +147,15 @@ Continúa con primer programa.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Relacionar números GPIO con conexiones físicas.
+
+**Alcance:** El ejemplo no elimina rebote. La selección de pines no es universal para S3/C3.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 00 — Preparación, seguridad y placa ESP32](../unidad00-preparacion/README.md)

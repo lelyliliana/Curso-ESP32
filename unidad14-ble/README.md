@@ -107,6 +107,15 @@ Diseña un nodo configurable desde dos móviles: determina quién puede cambiar 
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Leer una característica BLE desde otro dispositivo.
+
+**Alcance:** Sin pairing/cifrado configurado: solo uptime público. Tras desconectar puede ser necesario reiniciar para descubrir de nuevo; es una extensión explícita.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 13 — Arquitectura de un sistema IoT](../unidad13-arquitectura-iot/README.md)

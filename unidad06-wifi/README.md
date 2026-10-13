@@ -166,6 +166,15 @@ Continúa con HTTP.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Observar conexión y recuperación sin detener el diagnóstico local.
+
+**Alcance:** setAutoReconnect también puede gestionar intentos; este laboratorio no garantiza el calendario interno del driver.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 05 — Interrupciones, temporización y tareas](../unidad05-interrupciones-tareas/README.md)

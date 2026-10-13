@@ -134,6 +134,15 @@ Continúa con interrupciones y tareas.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Leer un sensor I2C con integridad del mensaje.
+
+**Alcance:** Se implementa I2C; SPI conserva la guía conceptual y queda como extensión, no como montaje probado.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 03 — GPIO, ADC y PWM en ESP32](../unidad03-io-adc-pwm/README.md)

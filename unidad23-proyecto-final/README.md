@@ -138,6 +138,15 @@ IoT exige diseñar la relación entre mundo físico, software y servicios, inclu
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Integrar medición ambiental y control de LED.
+
+**Alcance:** Integrador educativo de referencia. Para cierre final aplica CHECKLIST y RUBRICA al alcance implementado y documenta pendientes.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 22 — Proyecto: control remoto](../unidad22-proyecto-control/README.md)

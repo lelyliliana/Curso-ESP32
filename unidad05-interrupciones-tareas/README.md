@@ -168,6 +168,15 @@ Continúa con Wi‑Fi.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Mantener la interrupción corta y observar rebote.
+
+**Alcance:** No promete un contador de pulsaciones sin rebotes; FreeRTOS multitararea es ampliación de GUIA.md.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 04 — Sensores, I²C y SPI en ESP32](../unidad04-sensores-buses/README.md)

@@ -127,6 +127,15 @@ Diseña una configuración con umbral, intervalo y versión, que sobreviva a rei
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Persistir una configuración sin escribir en cada loop.
+
+**Alcance:** El contador puede desbordar y no es identidad global. No conserva hora UTC.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 14 — Bluetooth y BLE](../unidad14-ble/README.md)

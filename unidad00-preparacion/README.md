@@ -170,6 +170,15 @@ Continúa con arquitectura y GPIO.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Identificar la placa antes de conectar periféricos.
+
+**Alcance:** No confirma todos los pines ni la corriente disponible del regulador.
+
 ## Continuar el curso
 
 - **Volver al índice:** [Todas las unidades](../README.md)

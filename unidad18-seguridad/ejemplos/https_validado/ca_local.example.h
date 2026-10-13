@@ -1,0 +1,3 @@
+#pragma once
+#define LAB_TLS_URL "https://TU_HOST_AUTORIZADO/"
+const char *LAB_CA = R"PEM(PEGA_AQUI_EL_CERTIFICADO_PEM_DE_LA_CA_VERIFICADA)PEM";

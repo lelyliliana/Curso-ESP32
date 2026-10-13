@@ -1,44 +1,29 @@
-# Versión 1.0
+# Versión 1.1: laboratorios de referencia
 
-Estado: **recorrido didáctico 00–23 completo y disponible**.
+Fecha: 2026-10-13.
 
-## Alcance
+Se conserva el recorrido 00–23 y se añaden 26 sketches independientes, 24 laboratorios y 24 soluciones razonadas. El índice LABORATORIOS permite realizar el curso por incrementos con materiales, configuración, experimentos, esperado, errores y alcance explícito.
 
-La versión 1.0 contiene:
+## Combinación de referencia
 
-- 24 unidades en siete niveles;
-- preparación, arquitectura ESP32 y GPIO;
-- ADC, PWM, sensores, I2C y SPI;
-- interrupciones y organización de tareas;
-- Wi‑Fi con reconexión;
-- cliente HTTP, servidor web y API REST;
-- MQTT, telemetría y control;
-- contratos JSON y arquitectura IoT;
-- BLE;
-- persistencia, registro offline y sincronización;
-- manejo de fallos y backoff;
-- seguridad básica y gestión de credenciales;
-- OTA;
-- consumo energético y deep sleep;
-- checklists y plantillas de diseño;
-- diagnóstico IoT por capas;
-- proyecto de nodo ambiental;
-- proyecto de control remoto;
-- proyecto final;
-- rúbrica técnica y checklist.
+ESP32 clásico/WROOM-32, perfil esp32:esp32:esp32, Arduino-ESP32 3.3.12, ArduinoJson 7.4.2 y PubSubClient 2.8.0. Servidor Python 3.10+ con SQLite y broker Mosquitto 2.0.22 de LAN. Consulta docs/ENTORNO.md para instalación y adaptación a otras placas.
 
-## Integración de proyectos
+## Qué implementa
 
-Las unidades 21–23 incluyen construcción por etapas, contratos, pruebas de fallos, plantillas de evidencia y criterios de aceptación. La rúbrica conserva un total de 100 puntos y explicita niveles de desempeño y aplicabilidad.
+- Identidad, GPIO, ADC/PWM, SHT31 I2C con CRC e interrupción breve.
+- Diagnóstico/reconexión Wi-Fi, HTTP cliente/servidor y API LED validada.
+- MQTT autenticado de LAN, disponibilidad, telemetría y control por estado deseado.
+- JSON validado, modelo de arquitectura y backoff simulado.
+- BLE de solo lectura, NVS y un pendiente durable con ACK HTTP por identidad.
+- HTTPS con CA configurada por el estudiante, OTA local y deep sleep por timer.
+- Bases de nodo ambiental, control con prioridad local e integrador.
 
-## Alcance de la verificación
+## Alcance honesto
 
-“Completo” describe la cobertura del recorrido didáctico. Los proyectos son guías para implementar firmware y servicios según el montaje. No implica que todos los escenarios tengan una aplicación lista para cargar ni que hayan sido probados en todas las placas.
+Las bases 21–23 no implementan todos los requisitos avanzados de sus guías. MQTT QoS0 no conserva lecturas perdidas; el pendiente de 16 tiene capacidad uno y no registra temperatura; la unidad 20 no representa una medición energética ya realizada; la unidad 19 no implementa firma/rollback de flota. La unidad 18 necesita endpoint y CA de confianza. Las unidades 13 y 17 son simulaciones, no red real.
 
-Los ejemplos deben compilarse y comprobarse con el chip, core, bibliotecas y hardware elegidos. Los resultados físicos, simulados y pendientes se documentan por separado.
+Cola multirregistro, jitter integrado, órdenes con ID/expiración y dashboard durable se desarrollan como extensiones según el proyecto. No se presentan como capacidades ya ejecutadas. Usa la rúbrica con evidencia del alcance real.
 
-## Criterio de cierre
+## Verificación
 
-El curso cubre el recorrido definido desde la plataforma ESP32 hasta el diseño y evaluación de sistemas IoT robustos.
-
-Las correcciones posteriores se consideran mantenimiento de la versión publicada.
+Consulta docs/VERIFICACION.md para compilación, pruebas del receptor y enlaces. Sin placa física en este entorno, pruebas eléctricas, radio, OTA real, consumo y latencia de control permanecen pendientes para cada montaje. El código compilado no reemplaza esas evidencias.

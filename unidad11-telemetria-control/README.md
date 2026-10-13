@@ -170,6 +170,15 @@ Continúa con JSON.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Controlar un LED con comandos idempotentes y vencimiento local.
+
+**Alcance:** ON/OFF es salida software sin realimentación. No detecta comando antiguo ni implementa ACL por nodo por sí solo.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 10 — MQTT: publish/subscribe y diseño de topics](../unidad10-mqtt/README.md)

@@ -1,0 +1,9 @@
+config_local.h
+ca_local.h
+.env
+*.bin
+*.elf
+build/
+__pycache__/
+*.db
+laboratorios/servicios/broker/passwd

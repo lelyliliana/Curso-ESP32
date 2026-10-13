@@ -130,6 +130,15 @@ Continúa con sensores y buses.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Convertir una entrada analógica en brillo PWM.
+
+**Alcance:** No controla un motor y no mide tensión con precisión metrológica.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 02 — Primer programa, arranque y diagnóstico serial](../unidad02-primer-programa/README.md)

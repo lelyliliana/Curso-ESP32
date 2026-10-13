@@ -136,6 +136,15 @@ Continúa con API REST.
 
 ---
 
+
+## Laboratorio ejecutable de referencia
+
+Esta unidad incluye [programa completo y práctica paso a paso](LABORATORIO.md), [soluciones razonadas](SOLUCIONES.md) y [registro de evidencias](../docs/EVIDENCIAS.md).
+
+**Objetivo de la práctica:** Servir una página desde el propio dispositivo.
+
+**Alcance:** Servidor síncrono educativo, sin autenticación ni concurrencia de producción.
+
 ## Continuar el curso
 
 - **Unidad anterior:** [Unidad 07 — Cliente HTTP y consumo de APIs](../unidad07-cliente-http/README.md)
