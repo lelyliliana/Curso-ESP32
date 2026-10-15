@@ -1,5 +1,7 @@
 # Unidad 11 — Telemetría, control y operación degradada
 
+**[Desarrollo paso a paso: Separar orden, estado y vencimiento en MQTT](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
 ## Qué aprenderás

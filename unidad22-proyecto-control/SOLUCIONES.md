@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 22
+# Soluciones desarrolladas de la Unidad 22
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. No: reporta software_output, sin sensor de realimentación.
-2. Podría renovarse al reconectar; nunca publiques retained en command.
-3. Mide y documenta; si necesitas garantía estricta utiliza protección independiente.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. ON repetido y motor
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Mantiene un estado lógico y renueva el plazo, pero no verifica una carga física. La referencia solo controla LED. Un motor exigiría otros componentes y evidencia.
 
-## Criterio de avance
+## 2. Retained antiguo
 
-El mando local bloquea ON y mantiene OFF. Tras liberar se requiere nuevo comando; vencimiento vuelve OFF.
+Podría aceptarse al volver a suscribirse si el cuerpo es válido y el botón libre. No se comprueban fecha ni command_id. La política del ensayo es no retener órdenes; no se presenta como protección completa contra reenvíos antiguos.
 
-## Límite que debes poder explicar
+## 3. Latencia del botón
 
-No incluye command_id/expiración UTC ni registro de autoridad por emisor; son extensiones del proyecto, no promesas.
+Mide bajo condiciones definidas y con instrumento/resolución documentados. Reconexión y llamadas síncronas pueden retrasar atención. Informa máximo observado y tamaño del ensayo; no lo conviertas en garantía universal de peor caso.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

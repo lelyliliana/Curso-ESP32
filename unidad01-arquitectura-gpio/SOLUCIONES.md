@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 01
+# Soluciones desarrolladas de la Unidad 01
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Invertirías el significado: encendido al liberar.
-2. En ESP32 clásico GPIO34 es solo entrada.
-3. Conserva la lectura del botón y cambia únicamente la representación.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. HIGH como pulsado
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Invierte la interpretación del contacto con pull-up: anunciará pulsado al soltar y libre al cerrar. El problema está en la comparación, no en que el botón produzca un dato aleatorio.
 
-## Criterio de avance
+## 2. GPIO34 como salida
 
-LED apagado al liberar y encendido al pulsar. El monitor alterna libre/pulsado.
+En el ESP32 clásico es solo entrada y no tiene polarización interna configurable como la de GPIO27. Puede utilizarse para el ADC del curso, con la señal externa apropiada.
 
-## Límite que debes poder explicar
+## 3. Sustitución temporal por texto
 
-El ejemplo no elimina rebote. La selección de pines no es universal para S3/C3.
+Conserva el cálculo de pulsado e imprime su valor sin depender de una nueva salida. Cuando la regla esté clara, comprueba el pinout de la nueva placa y conecta el LED en un GPIO admitido. Una compilación no certifica ese montaje.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

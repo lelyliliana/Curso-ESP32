@@ -1,5 +1,7 @@
 # Laboratorio 06: Observar conexión y recuperación sin detener el diagnóstico local
 
+**[Desarrollo paso a paso: Conectarse sin confundir Wi-Fi con servicio disponible](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar

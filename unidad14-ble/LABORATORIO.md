@@ -1,5 +1,7 @@
 # Laboratorio 14: Leer una característica BLE desde otro dispositivo
 
+**[Desarrollo paso a paso: Leer una característica BLE desde su contrato](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar

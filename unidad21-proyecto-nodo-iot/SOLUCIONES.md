@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 21
+# Soluciones desarrolladas de la Unidad 21
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. No: el laboratorio lo imprime como lectura solo local.
-2. El receptor debe aceptar ese contrato ampliado.
-3. Persiste el registro completo e ID y espera ACK; no basta guardar uptime.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Medidas sin Wi-Fi
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+No quedan almacenadas en este nodo. La lectura local puede continuar según atención del loop, pero no existe cola de telemetría. La reconexión no recupera automáticamente ese pasado.
 
-## Criterio de avance
+## 2. Campos nuevos
 
-Lectura local con T/HR; broker entrega JSON si conectado. Sensor ausente/CRC inválido: no publica dato falso.
+Añade source como texto real y schema_version como número 1 al JsonDocument. Actualiza consumidores y pruebas; el validador estricto de la Unidad 12 rechazaría esos campos extras sin una ampliación coordinada. Comprueba tamaño y serialización.
 
-## Límite que debes poder explicar
+## 3. Pendiente persistente
 
-Base mínima reproducible. Los requisitos avanzados de README (200 registros, jitter, dashboard) son extensión evaluada, no capacidad de este firmware.
+El registro debe conservar valor original, unidad, calidad e identidad antes del envío. Una retransmisión usa los mismos datos. La Unidad 16 guarda solo un evento nodo/id y tiene escrituras separadas; no basta copiarla para afirmar una cola ambiental completa y atómica.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

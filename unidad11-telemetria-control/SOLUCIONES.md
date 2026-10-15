@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 11
+# Soluciones desarrolladas de la Unidad 11
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. No alterna, pero renueva el plazo.
-2. Una orden antigua podría llegar al reconectar.
-3. Detección TCP/MQTT y bloqueos pueden demorar: no equivale a protección de tiempo real.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Repetir true
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Conserva ON y renueva ultimoComando. Si el segundo llega a los seis segundos, el plazo se cuenta desde esa segunda aceptación. Es idempotente respecto al valor de salida, no respecto al tiempo de autorización.
 
-## Criterio de avance
+## 2. Retained en command
 
-ON al aceptar y OFF tras vencimiento o enlace perdido detectado; comandos inválidos no aplican cambios.
+Puede reactivar una orden antigua después de reconectar. La referencia no comprueba antigüedad ni command_id. Retener state para observación y retener una orden de actuación son decisiones diferentes.
 
-## Límite que debes poder explicar
+## 3. Demora de pérdida del broker
 
-ON/OFF es salida software sin realimentación. No detecta comando antiguo ni implementa ACL por nodo por sí solo.
+Mide entre detenerlo y observar OFF, indicando condiciones y registros. Keepalive, timeouts y llamadas síncronas afectan detección. No infieras una respuesta instantánea del botón o de la red por el nombre de una condición.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

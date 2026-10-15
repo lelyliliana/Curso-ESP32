@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 07
+# Soluciones desarrolladas de la Unidad 07
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. No: un servidor respondió por HTTP.
-2. No: el cuerpo declara origen simulated.
-3. Registra tiempo real; DNS/TCP y fases pueden añadir latencia.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. 404 y Wi-Fi
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+404 es una respuesta HTTP de un servidor alcanzado. Se diferencia de no establecer conexión o recibir un código negativo. Comprueba ruta sin cambiar primero las credenciales de Wi-Fi.
 
-## Criterio de avance
+## 2. Alcance de 200
 
-200 entrega JSON explícitamente simulado; caída produce error negativo; ruta inexistente 404.
+No demuestra origen físico, esquema correcto ni calibración. El servicio educativo devuelve un valor fijo con source simulated. Conserva esa procedencia.
 
-## Límite que debes poder explicar
+## 3. Medir un fallo
 
-HTTP de LAN no cifra datos ni autentica el servidor; solo usa datos de laboratorio.
+Registra marcas justo antes y después del GET y el código de resultado. Detén el servicio sin cambiar la red y repite varias veces. Informa duración observada; no sumes dos timeouts como garantía universal de toda petición.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

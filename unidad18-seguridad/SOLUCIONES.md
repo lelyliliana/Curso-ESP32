@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 18
+# Soluciones desarrolladas de la Unidad 18
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. No: son transportes distintos.
-2. Cadena/identidad del servidor bajo esa confianza, no corrección de contenido.
-3. Eliminaría verificación y ocultaría un fallo de seguridad.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Clave MQTT de Unidad 10
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+No viaja protegida por TLS en ese ejemplo. El transporte WiFiClient y puerto 1883 no incorporan cifrado TLS; el usuario/contraseña del broker cumplen otra función.
 
-## Criterio de avance
+## 2. CA válida
 
-Sin CA no envía; CA incorrecta falla; correcta puede responder HTTP según contrato del endpoint.
+Una cadena aceptada, hostname coincidente y fechas válidas apoyan la identidad del servidor conforme a la confianza configurada. No prueban autorización del dispositivo ni exactitud de una medición.
 
-## Límite que debes poder explicar
+## 3. setInsecure
 
-Requiere endpoint propio y hora NTP; no simula éxito TLS ni da una CA universal.
+Desactiva verificaciones que la práctica intenta comprobar. La respuesta podría llegar, pero dejarías de demostrar confianza en el servidor. Revisa reloj, cadena y hostname antes de cambiar el objetivo del ensayo.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

@@ -1,6 +1,16 @@
 # Laboratorio 21: Construir una base de nodo ambiental con sensor real
 
+**[Desarrollo paso a paso: Construir un nodo ambiental y localizar pérdidas](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
+
+
+## Esquema de conexiones
+
+Los diagramas identifican señales, no posiciones físicas. Usa la referencia clásica y confirma el pinout de tu tarjeta y módulo. [Atlas completo](../docs/ATLAS_CONEXIONES.md).
+
+![SHT31 compatible con lógica y alimentación 3.3 V](../docs/esquemas/sht31.svg)
+
 
 ## Qué vas a comprobar
 
@@ -8,7 +18,7 @@ Construir una base de nodo ambiental con sensor real. Trabaja primero con la ref
 
 ## Montaje y materiales
 
-SHT31 como Unidad04 y broker como Unidad10. No utiliza datos simulados para reemplazar fallos.
+SHT31 como Unidad04 y broker como Unidad 10. No utiliza datos simulados para reemplazar fallos.
 
 La referencia usa lógica de 3.3 V. GPIO25/27/34 y SDA21/SCL22 corresponden al perfil clásico; verifica que estén disponibles en tu tarjeta. No sustituyas pines a partir del color de cables ni de la posición física en una fotografía.
 
@@ -37,7 +47,7 @@ Lee `setup` para reconocer inicialización; `loop` para localizar tareas periód
 
 1. Desconecta Wi-Fi: ¿se conservan medidas?
 2. Añade source=real y schema_version=1 al payload.
-3. Diseña cómo incorporar pendiente persistente de Unidad16 con valor y calidad.
+3. Diseña cómo incorporar pendiente persistente de Unidad 16 con valor y calidad.
 
 Consulta [SOLUCIONES.md](SOLUCIONES.md) después de predecir y ejecutar. La explicación debe vincular entrada, decisión y salida; una captura sin descripción no permite valorar comprensión.
 

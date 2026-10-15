@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 03
+# Soluciones desarrolladas de la Unidad 03
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. La división entera da 127.
-2. Cambia 255 por 128 y explica el nuevo rango.
-3. Atenuación, no linealidad y calibración afectan la conversión.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. duty para 2048
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+El producto es 522240. Dividido entre 4095 da 127 con división entera. La cuenta representa casi media escala, no una promesa de mitad de brillo percibido.
 
-## Criterio de avance
+## 2. Máximo 128
 
-ADC entre 0 y 4095 y duty entre 0 y 255; el brillo cambia. Puede saturar antes de alcanzar 3.3 V.
+Antes de ledcWrite, aplica `if (duty > 128) duty = 128;` en una copia. Para ADC 4095 se obtiene inicialmente 255 y se recorta. Para 2048 queda 127. Una conversión proporcional a 128 tendría otro resultado intermedio.
 
-## Límite que debes poder explicar
+## 3. Tensión exacta
 
-No controla un motor y no mide tensión con precisión metrológica.
+No se deduce de una regla de tres ideal. Comprueba atenuación, referencia/calibración, rango y montaje. La unidad de un código no es voltios. Si amplías a milivoltios, declara qué función y condiciones utilizaste.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

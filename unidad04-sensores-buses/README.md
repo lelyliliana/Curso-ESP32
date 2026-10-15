@@ -1,5 +1,7 @@
 # Unidad 04 — Sensores, I²C y SPI en ESP32
 
+**[Desarrollo paso a paso: Leer un SHT31 completo y separar el ensayo SPI](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
 ## Qué aprenderás

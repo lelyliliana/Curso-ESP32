@@ -1,5 +1,7 @@
 # Unidad 09 — API HTTP/REST básica en el dispositivo
 
+**[Desarrollo paso a paso: Definir una API que representa un estado](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
 ## Qué aprenderás

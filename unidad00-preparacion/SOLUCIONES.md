@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 00
+# Soluciones desarrolladas de la Unidad 00
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. La capacidad se expresa en bytes; divide por 1024² para MiB.
-2. La selección cambia la compilación y carga, no el silicio.
-3. Puerto, cable, velocidad 115200, selección y mensajes de carga.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Flash frente a ficha
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Compara capacidad en las mismas unidades. Si el programa informa 4194304 bytes, equivale a 4 MiB. Una diferencia exige revisar modelo real, configuración y consulta; no se corrige cambiando la etiqueta del resultado.
 
-## Criterio de avance
+## 2. Selección de placa
 
-Dos arranques muestran el mismo modelo y tamaño de flash; la memoria libre puede variar.
+Cambia el modo de compilar y cargar. No añade núcleos, BLE ni memoria al chip. La identidad física debe comprobarse antes de elegir el perfil.
 
-## Límite que debes poder explicar
+## 3. Monitor sin salida
 
-No confirma todos los pines ni la corriente disponible del regulador.
+Registra placa, cable, puerto, perfil, core, velocidad y mensajes de carga. Abre a 115200 y reinicia para repetir setup. La referencia no imprime periódicamente; esperar indefinidamente sin reiniciar no recupera un encabezado ya enviado.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

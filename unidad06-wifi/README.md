@@ -1,5 +1,7 @@
 # Unidad 06 — Wi‑Fi, estados y reconexión
 
+**[Desarrollo paso a paso: Conectarse sin confundir Wi-Fi con servicio disponible](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
 ## Qué aprenderás

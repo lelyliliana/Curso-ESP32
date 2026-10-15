@@ -1,5 +1,7 @@
 # Laboratorio 02: Separar arranque y tarea periódica
 
+**[Desarrollo paso a paso: Reconocer un dispositivo vivo y un reinicio](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar

@@ -1,5 +1,7 @@
 # Unidad 02 — Primer programa, arranque y diagnóstico serial
 
+**[Desarrollo paso a paso: Reconocer un dispositivo vivo y un reinicio](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
 ## Qué aprenderás

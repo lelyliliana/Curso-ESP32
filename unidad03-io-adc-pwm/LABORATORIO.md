@@ -1,6 +1,16 @@
 # Laboratorio 03: Convertir una entrada analógica en brillo PWM
 
+**[Desarrollo paso a paso: Pasar de una lectura ADC a una salida LEDC](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
+
+
+## Esquema de conexiones
+
+Los diagramas identifican señales, no posiciones físicas. Usa la referencia clásica y confirma el pinout de tu tarjeta y módulo. [Atlas completo](../docs/ATLAS_CONEXIONES.md).
+
+![Potenciómetro y salida PWM LEDC](../docs/esquemas/adc-pwm.svg)
+
 
 ## Qué vas a comprobar
 

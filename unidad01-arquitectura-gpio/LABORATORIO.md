@@ -1,6 +1,16 @@
 # Laboratorio 01: Relacionar números GPIO con conexiones físicas
 
+**[Desarrollo paso a paso: Relacionar GPIO, nivel eléctrico y significado](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
+
+
+## Esquema de conexiones
+
+Los diagramas identifican señales, no posiciones físicas. Usa la referencia clásica y confirma el pinout de tu tarjeta y módulo. [Atlas completo](../docs/ATLAS_CONEXIONES.md).
+
+![Botón local y LED independientes](../docs/esquemas/boton-led.svg)
+
 
 ## Qué vas a comprobar
 

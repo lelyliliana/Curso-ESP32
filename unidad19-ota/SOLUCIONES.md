@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 19
+# Soluciones desarrolladas de la Unidad 19
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Misma subred, mDNS, firewall y ArduinoOTA.handle; conserva ruta USB.
-2. No: esos mecanismos avanzados se mantienen en guía conceptual.
-3. Instala el firmware que atiende OTA antes del primer envío por red.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Puerto de red ausente
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Comprueba firmware OTA inicial, clave, IP, red común alcanzable, descubrimiento local y configuración de la herramienta. Una red de invitados puede impedir acceso. Tener Wi-Fi no prueba que el computador descubra el servicio.
 
-## Criterio de avance
+## 2. Firma o rollback
 
-OTA inicio/recibida y nuevo arranque informa lab-2. Clave errónea debe rechazar carga.
+No están demostrados por el sketch. Una clave de transferencia y callbacks de progreso no equivalen a firmware firmado ni recuperación automática probada.
 
-## Límite que debes poder explicar
+## 3. Primero USB
 
-ArduinoOTA local no equivale a OTA firmada de flota. Autenticación no cifra todo el proceso; sin redirección a Internet.
+Instala el receptor OTA y proporciona una vía de recuperación. Después verifica el nuevo arranque con VERSION_FIRMWARE distinto, no solo el porcentaje de transferencia. El esquema de particiones también debe soportar la actualización.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

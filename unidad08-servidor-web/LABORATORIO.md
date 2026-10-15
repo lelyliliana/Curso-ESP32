@@ -1,5 +1,7 @@
 # Laboratorio 08: Servir una página desde el propio dispositivo
 
+**[Desarrollo paso a paso: Servir una página desde el dispositivo](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar

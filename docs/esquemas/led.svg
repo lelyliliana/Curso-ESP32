@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="286" viewBox="0 0 1080 286" role="img" aria-labelledby="titulo descripcion">
+<title id="titulo">Salida LED de laboratorio</title>
+<desc id="descripcion">GPIO25 — Resistencia 330 Ω — LED: ánodo → cátodo → GND.</desc>
+<rect width="1080" height="286" fill="#f3f6fa"/>
+<style>text{font-family:DejaVu Sans,Arial,sans-serif;fill:#15263c}.title{font-size:24px;font-weight:bold}.sub{font-size:14px}.pin{font-size:17px;font-weight:bold}.via{font-size:14px}.note{font-size:15px}</style>
+<text x="32" y="40" class="title">Salida LED de laboratorio</text>
+<text x="32" y="66" class="sub">CONEXIONES FUNCIONALES · ESP32 CLÁSICO / WROOM-32 · NO ES UNA VISTA FÍSICA DE PROTOBOARD</text>
+<rect x="26" y="85" width="1028" height="55" rx="9" fill="white"/>
+<text x="42" y="117" class="pin">GPIO25</text>
+<path d="M320 112 H675" fill="none" stroke="#1477a2" stroke-width="3"/>
+<circle cx="320" cy="112" r="4" fill="#1477a2"/><circle cx="675" cy="112" r="4" fill="#1477a2"/>
+<rect x="355" y="98" width="285" height="28" rx="5" fill="#edf3f9" stroke="#1477a2"/>
+<text x="497" y="117" class="via" text-anchor="middle">Resistencia 330 Ω</text>
+<text x="696" y="117" class="pin">LED: ánodo → cátodo → GND</text>
+<text x="32" y="174" class="note">Referencia ESP32 clásico/WROOM-32, lógica 3.3 V. Una resistencia por LED.</text>
+<text x="32" y="199" class="note">El GPIO solicita una salida; este montaje no alimenta una carga de potencia.</text>
+<text x="32" y="266" class="sub">Señal: azul · Alimentación: rojo · Masa: gris. Montar sin alimentación y contrastar con el pinout real.</text></svg>

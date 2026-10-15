@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 14
+# Soluciones desarrolladas de la Unidad 14
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Advertising permite descubrir; conexión permite consultar GATT.
-2. No anuncia propiedad NOTIFY.
-3. No: solo lectura, sin controlador de actuador.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Advertising y conexión
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+El anuncio permite descubrir el servicio. Leer una característica exige la operación GATT correspondiente. Ver el nombre no demuestra haber leído datos ni identifica de forma segura al emisor.
 
-## Criterio de avance
+## 2. Descriptor de notificaciones
 
-Las lecturas muestran uptime diferente; no aparece una característica de escritura.
+No hace falta para esta práctica de solo lectura, que no ofrece NOTIFY. Actualizar el valor con setValue no envía por sí solo notificaciones a quien ya lo leyó.
 
-## Límite que debes poder explicar
+## 3. Escribir un LED
 
-Sin pairing/cifrado configurado: solo uptime público. Tras desconectar puede ser necesario reiniciar para descubrir de nuevo; es una extensión explícita.
+No está implementado. La característica tiene permiso READ y el sketch ni define la salida del LED. Una ampliación necesita característica de escritura, validación y lógica de actuación.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

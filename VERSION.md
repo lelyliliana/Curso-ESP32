@@ -1,3 +1,17 @@
+# Versión 1.2: desarrollo didáctico de ESP32 e IoT
+
+Fecha: 2026-10-14 (America/Bogota).
+
+Las 24 unidades incorporan desarrollos específicos del código, tablas de seguimiento, derivaciones, experimentos y diagnóstico por capas. Se amplían las 24 soluciones y se añaden seis esquemas SVG, cinco diagramas Mermaid de protocolos/estados y una tabla temporal de backoff.
+
+La guía de red/MQTT explica los headers locales, configuración, reconexión, retorno de funciones, QoS, Last Will y alcance de publicación. Se desarrollan además ADC/LEDC, integridad SHT31, ISR/tareas, contratos JSON, BLE de lectura, NVS, reenvío con identidad estable, TLS, OTA, sueño y los tres proyectos.
+
+Se conserva el código de los 26 sketches. El material hace explícitos límites que ya existen: cola de un evento con escrituras separadas, telemetría sin persistencia en el nodo ambiental, comandos sin verificación de antigüedad y prioridad local sujeta a tiempos del loop. La actualización OTA no declara firma ni rollback probado.
+
+Consulta el [registro de verificación](docs/VERIFICACION.md) y conserva evidencia física de cada montaje.
+
+---
+
 # Versión 1.1: laboratorios de referencia
 
 Fecha: 2026-10-13.

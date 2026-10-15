@@ -1,6 +1,16 @@
 # Laboratorio 22: Construir control remoto de laboratorio con estado seguro explícito
 
+**[Desarrollo paso a paso: Dar prioridad a una entrada local en control remoto](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
+
+
+## Esquema de conexiones
+
+Los diagramas identifican señales, no posiciones físicas. Usa la referencia clásica y confirma el pinout de tu tarjeta y módulo. [Atlas completo](../docs/ATLAS_CONEXIONES.md).
+
+![Botón local y LED independientes](../docs/esquemas/boton-led.svg)
+
 
 ## Qué vas a comprobar
 
@@ -8,7 +18,7 @@ Construir control remoto de laboratorio con estado seguro explícito. Trabaja pr
 
 ## Montaje y materiales
 
-LED externo25 y broker autenticado; pulsador27 se incorpora como prioridad local en esta versión.
+LED externo en GPIO25 y broker autenticado; pulsador en GPIO27 se incorpora como prioridad local en esta versión.
 
 La referencia usa lógica de 3.3 V. GPIO25/27/34 y SDA21/SCL22 corresponden al perfil clásico; verifica que estén disponibles en tu tarjeta. No sustituyas pines a partir del color de cables ni de la posición física en una fotografía.
 

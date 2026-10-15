@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 23
+# Soluciones desarrolladas de la Unidad 23
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Comando, espera, bytes/CRC, fórmula, JSON, publish, broker, suscriptor.
-2. Este LED solo puede observarse; una carga necesita realimentación apropiada.
-3. Reutiliza contrato completo, registra capacidad y prueba ACK perdido; no anuncies garantía no medida.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Lectura completa
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+SHT31 → Wire → comprobación de longitud/CRC → conversión → JSON → publicación QoS0 → broker → suscriptor. Cada flecha necesita evidencia distinta; Serial no demuestra recepción remota y recepción no demuestra persistencia.
 
-## Criterio de avance
+## 2. Efecto de una carga
 
-Fallo sensor no inventa datos; LED se apaga por protección local/vencimiento. Broker disponible publica medición real y estado software.
+La variable activo y state solo informan decisión de firmware. Observación o realimentación física adecuada debe confirmar el efecto. El integrador base controla un LED, no una carga de potencia.
 
-## Límite que debes poder explicar
+## 3. Persistencia y ACK
 
-Integrador educativo de referencia. Para cierre final aplica CHECKLIST y RUBRICA al alcance implementado y documenta pendientes.
+Guarda un registro completo e identidad estable, conserva el pendiente hasta un ACK de aplicación que corresponda a ese registro y prueba reenvío del mismo contenido tras perder la respuesta. Documenta capacidad y ventanas de escritura. Una respuesta MQTT o un JSON local no sustituyen esa confirmación durable.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

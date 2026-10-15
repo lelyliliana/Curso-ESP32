@@ -1,5 +1,7 @@
 # Unidad 13 — Arquitectura de un sistema IoT
 
+**[Desarrollo paso a paso: Construir una arquitectura sin atribuir capacidades simuladas](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
 ## Qué aprenderás

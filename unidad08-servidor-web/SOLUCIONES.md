@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 08
+# Soluciones desarrolladas de la Unidad 08
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. No procesa normalmente nuevas solicitudes.
-2. Cambia el HTML sin alterar conectividad.
-3. El callback de onNotFound.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Quitar handleClient
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+El registro de rutas sigue existiendo, pero falta su atención habitual en loop. Separa ese síntoma del enlace Wi-Fi: una IP válida no demuestra que la aplicación responda.
 
-## Criterio de avance
+## 2. Identificador de nodo
 
-Página Nodo local y 404 en ruta inexistente.
+Modifica el texto HTML del callback de `/`, compila y carga la copia. Solicita una respuesta nueva para distinguirla de una página anterior conservada por el navegador.
 
-## Límite que debes poder explicar
+## 3. Origen del 404
 
-Servidor síncrono educativo, sin autenticación ni concurrencia de producción.
+La lambda registrada en onNotFound llama server.send con 404. Es una decisión de la aplicación para una petición que no coincide con sus rutas, no un error genérico del router.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

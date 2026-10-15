@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 02
+# Soluciones desarrolladas de la Unidad 02
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Es una variable RAM inicializada en cada arranque.
-2. Usa otro ultimo, no reinicies el de la primera tarea.
-3. El loop y la transmisión serial introducen variación; no es un instrumento calibrado.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Contador después de reiniciar
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Se inicializa en RAM. No se usa Preferences ni otra memoria persistente. Un reinicio vuelve a comenzar en cero y la primera impresión periódica anuncia uno.
 
-## Criterio de avance
+## 2. Tarea de 3000 ms
 
-El contador vuelve a 1 tras reiniciar; el tiempo entre líneas cambia aproximadamente de 1 a 2 segundos.
+Utiliza una marca propia y un segundo if. Si comparte ultimo con la tarea de un segundo, esta puede impedir que alcance su periodo. A los múltiplos comunes pueden ejecutarse ambas sin ser hilos nuevos.
 
-## Límite que debes poder explicar
+## 3. Periodo y exactitud
 
-Sin Wi-Fi ni procesos concurrentes; no demuestra tiempo real estricto.
+1000 ms es una decisión nominal. Tiempo de ejecución, reloj e instrumentación producen diferencias. Cronometrar varios intervalos permite describir lo observado; no convierte el dispositivo en un reloj calibrado.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

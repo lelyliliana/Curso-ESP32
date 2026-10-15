@@ -1,25 +1,25 @@
-# Soluciones razonadas del laboratorio 04
+# Soluciones desarrolladas de la Unidad 04
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Prueba ACK en una dirección, no identidad/calibración.
-2. Debe coincidir con el módulo, no cambia por software su cableado.
-3. Se rechaza la lectura incompleta antes de acceder al arreglo.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Escaneo
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+ACK informa que hubo respuesta en una dirección. No sustituye lectura de datos, comprobación CRC ni identificación de modelo. Separa esas evidencias en el informe.
 
-## Criterio de avance
+## 2. Dirección 0x45
 
-Con sensor responde 0x44 y aparecen T/HR. Sin sensor informa ausente; no inventa una temperatura.
+Cambia SENSOR solo si ADDR y el módulo real están configurados para ella. Cambiar una constante al azar no mueve eléctricamente la dirección del dispositivo.
 
-## Límite que debes poder explicar
+## 3. Respuesta incompleta
 
-Se implementa I2C; SPI conserva la guía conceptual y queda como extensión, no como montaje probado.
+El programa informa Lectura incompleta y retorna sin convertir. No rellena los bytes faltantes con cero ni publica una temperatura inventada. En la siguiente oportunidad intenta otro ciclo.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Contraste con SPI
 
-## SPI
+Con puente 23→19 se espera recibir A5. Eso no confirma SHT31 ni un sensor SPI real. La práctica I2C y el retorno SPI deben registrarse como ensayos distintos.
 
-Con puente MOSI→MISO, RX debe reproducir TX. Sin puente el valor puede ser indeterminado, por lo que no aceptes0 como única salida esperada. CS no controla un dispositivo real en esta prueba.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

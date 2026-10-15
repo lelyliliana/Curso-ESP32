@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="484" viewBox="0 0 1080 484" role="img" aria-labelledby="titulo descripcion">
+<title id="titulo">SHT31 compatible con lógica y alimentación 3.3 V</title>
+<desc id="descripcion">ESP32 3V3 — Alimentación compatible — Módulo SHT31 VCC; ESP32 GND — Referencia común — Módulo SHT31 GND; GPIO21 — Bus SDA — Módulo SHT31 SDA; GPIO22 — Bus SCL — Módulo SHT31 SCL.</desc>
+<rect width="1080" height="484" fill="#f3f6fa"/>
+<style>text{font-family:DejaVu Sans,Arial,sans-serif;fill:#15263c}.title{font-size:24px;font-weight:bold}.sub{font-size:14px}.pin{font-size:17px;font-weight:bold}.via{font-size:14px}.note{font-size:15px}</style>
+<text x="32" y="40" class="title">SHT31 compatible con lógica y alimentación 3.3 V</text>
+<text x="32" y="66" class="sub">CONEXIONES FUNCIONALES · ESP32 CLÁSICO / WROOM-32 · NO ES UNA VISTA FÍSICA DE PROTOBOARD</text>
+<rect x="26" y="85" width="1028" height="55" rx="9" fill="white"/>
+<text x="42" y="117" class="pin">ESP32 3V3</text>
+<path d="M320 112 H675" fill="none" stroke="#b93828" stroke-width="3"/>
+<circle cx="320" cy="112" r="4" fill="#b93828"/><circle cx="675" cy="112" r="4" fill="#b93828"/>
+<rect x="355" y="98" width="285" height="28" rx="5" fill="#edf3f9" stroke="#b93828"/>
+<text x="497" y="117" class="via" text-anchor="middle">Alimentación compatible</text>
+<text x="696" y="117" class="pin">Módulo SHT31 VCC</text>
+<rect x="26" y="151" width="1028" height="55" rx="9" fill="white"/>
+<text x="42" y="183" class="pin">ESP32 GND</text>
+<path d="M320 178 H675" fill="none" stroke="#485569" stroke-width="3"/>
+<circle cx="320" cy="178" r="4" fill="#485569"/><circle cx="675" cy="178" r="4" fill="#485569"/>
+<rect x="355" y="164" width="285" height="28" rx="5" fill="#edf3f9" stroke="#485569"/>
+<text x="497" y="183" class="via" text-anchor="middle">Referencia común</text>
+<text x="696" y="183" class="pin">Módulo SHT31 GND</text>
+<rect x="26" y="217" width="1028" height="55" rx="9" fill="white"/>
+<text x="42" y="249" class="pin">GPIO21</text>
+<path d="M320 244 H675" fill="none" stroke="#1477a2" stroke-width="3"/>
+<circle cx="320" cy="244" r="4" fill="#1477a2"/><circle cx="675" cy="244" r="4" fill="#1477a2"/>
+<rect x="355" y="230" width="285" height="28" rx="5" fill="#edf3f9" stroke="#1477a2"/>
+<text x="497" y="249" class="via" text-anchor="middle">Bus SDA</text>
+<text x="696" y="249" class="pin">Módulo SHT31 SDA</text>
+<rect x="26" y="283" width="1028" height="55" rx="9" fill="white"/>
+<text x="42" y="315" class="pin">GPIO22</text>
+<path d="M320 310 H675" fill="none" stroke="#1477a2" stroke-width="3"/>
+<circle cx="320" cy="310" r="4" fill="#1477a2"/><circle cx="675" cy="310" r="4" fill="#1477a2"/>
+<rect x="355" y="296" width="285" height="28" rx="5" fill="#edf3f9" stroke="#1477a2"/>
+<text x="497" y="315" class="via" text-anchor="middle">Bus SCL</text>
+<text x="696" y="315" class="pin">Módulo SHT31 SCL</text>
+<text x="32" y="372" class="note">Comprueba pull-ups del módulo: deben ir a tensión compatible, no a 5 V.</text>
+<text x="32" y="397" class="note">Dirección del ejemplo 0x44. ADDR, desacoplo y pinout se verifican por ficha.</text>
+<text x="32" y="464" class="sub">Señal: azul · Alimentación: rojo · Masa: gris. Montar sin alimentación y contrastar con el pinout real.</text></svg>

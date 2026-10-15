@@ -1,5 +1,7 @@
 # Laboratorio 18: Validar TLS usando CA y hostname sin setInsecure
 
+**[Desarrollo paso a paso: Validar TLS sin confundir cifrado con autorización](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar
@@ -35,7 +37,7 @@ Lee `setup` para reconocer inicialización; `loop` para localizar tareas periód
 
 ## Ejercicios de comprobación
 
-1. ¿Se cifra la clave del broker MQTT de Unidad10?
+1. ¿Se cifra la clave del broker MQTT de Unidad 10?
 2. ¿Qué prueba una CA válida?
 3. ¿Por qué no usar setInsecure como solución al error?
 

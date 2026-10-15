@@ -1,5 +1,7 @@
 # Laboratorio 13: Separar adquisición, transporte y degradación
 
+**[Desarrollo paso a paso: Construir una arquitectura sin atribuir capacidades simuladas](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar
@@ -36,7 +38,7 @@ Lee `setup` para reconocer inicialización; `loop` para localizar tareas periód
 ## Ejercicios de comprobación
 
 1. ¿Qué falta para tener una arquitectura ejecutada completa?
-2. Identifica las capas en Unidad21.
+2. Identifica las capas en Unidad 21.
 3. Agrega un estado sensor inválido independiente del enlace.
 
 Consulta [SOLUCIONES.md](SOLUCIONES.md) después de predecir y ejecutar. La explicación debe vincular entrada, decisión y salida; una captura sin descripción no permite valorar comprensión.

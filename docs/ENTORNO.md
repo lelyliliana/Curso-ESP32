@@ -41,7 +41,7 @@ Abre `unidad00-preparacion/ejemplos/identidad/identidad.ino`, selecciona puerto 
 
 ## Paso 5. Configura solo tu copia local
 
-Los sketches de red contienen `config_local.example.h`. Cópialo a `config_local.h` en la misma carpeta y completa SSID/clave2.4GHz. Para HTTP/MQTT, LAB_HOST es IP LAN del computador. Mantén el archivo privado: `.gitignore` lo excluye.
+Los sketches de red contienen `config_local.example.h`. Cópialo a `config_local.h` en la misma carpeta y completa SSID/clave de 2.4 GHz. Para HTTP/MQTT, LAB_HOST es IP LAN del computador. Mantén el archivo privado: `.gitignore` lo excluye.
 
 El firmware necesita esos datos para conectarse; placeholders permiten compilar pero no conectarse. No imprimas credenciales. Todos los tópicos de referencia comienzan por `curso/nodo01/`; dos dispositivos requieren identidad propia y permisos ajustados.
 

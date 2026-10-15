@@ -6,7 +6,7 @@ Puedes leer las lecciones aquí sin conocer GitHub. Al terminar cada unidad, usa
 
 [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
-**Versión 1.1 (laboratorios de referencia)**
+**Versión 1.2 (desarrollo de programas, protocolos y conexiones)**
 
 Curso abierto para avanzar desde prototipos con microcontroladores hacia **dispositivos conectados e Internet de las Cosas (IoT)** utilizando ESP32.
 
@@ -15,6 +15,20 @@ Este curso asume conocimientos básicos de programación, circuitos, entradas/sa
 ## Comienza con una práctica reproducible
 
 Consulta el [entorno fijado y montaje de referencia](docs/ENTORNO.md), los [24 laboratorios progresivos](laboratorios/README.md) y los [servicios locales HTTP/MQTT](laboratorios/servicios/README.md). Cada unidad enlaza programa completo, experimento, resultado esperado y soluciones razonadas. Revisa [qué se verificó](docs/VERIFICACION.md) antes de interpretar una compilación como prueba física.
+
+## Cómo seguir cada unidad
+
+Cada unidad enlaza un **Desarrollo paso a paso** que acompaña sus programas completos: explica entradas, decisiones, estados, datos y límites. Después realiza el laboratorio y compara las soluciones desarrolladas cuando hayas intentado sus ejercicios.
+
+1. Predice un caso pequeño antes de ejecutar.
+2. Identifica el montaje en el [atlas de seis esquemas](docs/ATLAS_CONEXIONES.md), cuando corresponda.
+3. Sigue el código y las tablas; abre también los headers del programa.
+4. Ejecuta una referencia y cambia una sola condición.
+5. Contrasta el resultado y registra qué capa comprobaste.
+
+Para red y servicios utiliza la [lectura del soporte Wi-Fi/MQTT](docs/LECTURA_RED_MQTT.md) y los [recorridos visuales de protocolos y estados](docs/RECORRIDOS_PROTOCOLOS.md). Estos distinguen conexión, recepción, persistencia y efecto físico. Las [fuentes técnicas](docs/FUENTES_TECNICAS.md) permiten ampliar cada API y componente.
+
+Los sketches de referencia conservan su comportamiento. Las ampliaciones del desarrollo se realizan en copias; un proyecto propuesto no se presenta como una función ya implementada.
 
 ## Objetivo
 

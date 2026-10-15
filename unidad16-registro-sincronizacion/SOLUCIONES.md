@@ -1,21 +1,25 @@
-# Soluciones razonadas del laboratorio 16
+# Soluciones desarrolladas de la Unidad 16
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Podría crear filas repetidas.
-2. Aquí son eventos sintéticos, no una serie continua; no genera nuevos.
-3. Las claves no forman una transacción; puede existir un hueco de secuencia, que debes registrar, sin reutilizar IDs confirmados.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. POST sin identidad estable
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Perder la respuesta no demuestra que el servidor no guardó. Crear otra identidad al reintentar puede duplicar la intención. Reenviar la misma identidad/cuerpo permite que el receptor detecte duplicados.
 
-## Criterio de avance
+## 2. Cola llena
 
-El pendiente reaparece tras reset. Mismo key/cuerpo entrega ACK repetido sin duplicar fila; contenido distinto devuelve 409.
+No se generan otros eventos mientras hay=true. Tampoco se están capturando temperaturas. Es un pendiente de demostración, no un histórico de mediciones almacenadas.
 
-## Límite que debes poder explicar
+## 3. Corte entre escrituras
 
-No es cola de 200 muestras ni almacenamiento de temperatura. Un borrado de NVS exige nueva identidad de dispositivo para evitar colisiones.
+seq, id y hay se escriben en operaciones distintas. Un reinicio intermedio puede dejar una combinación parcial o saltos. No se presenta como registro atómico de aplicación.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## ACK y limpieza
+
+200/201 con ACK correcto confirma al receptor. Limpiar hay en NVS es otro paso, que también puede fallar. Si queda pendiente se reenvía sin crear otra fila gracias a identidad y contenido estables. Verifica ambas partes por separado.
+
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

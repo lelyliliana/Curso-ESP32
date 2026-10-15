@@ -1,5 +1,7 @@
 # Unidad 14 — Bluetooth y BLE
 
+**[Desarrollo paso a paso: Leer una característica BLE desde su contrato](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
 ## Qué aprenderás

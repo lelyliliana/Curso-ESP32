@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 13
+# Soluciones desarrolladas de la Unidad 13
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Hardware, red, receptor y almacenamiento verificados.
-2. Wire/CRC adquiere, JSON representa y MQTT transporta.
-3. No conviertas fallo de sensor en caída de Wi-Fi.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Arquitectura completa
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Faltan adquisición real, transporte real, broker/servicio y consumidor según el objetivo, además de pruebas de integración. Este sketch solo simula una lectura y disponibilidad mediante Serial.
 
-## Criterio de avance
+## 2. Capas de la Unidad 21
 
-El diagnóstico alterna disponible/sin enlace; ninguna lectura pasa a ser real.
+SHT31/Wire adquiere; la conversión produce unidades; ArduinoJson forma el mensaje; MQTT solicita publicarlo y el broker lo distribuye. Guardarlo exige otro componente. No hay persistencia local en ese nodo.
 
-## Límite que debes poder explicar
+## 3. Sensor inválido independiente
 
-Modelo ejecutable de estados, no un nodo conectado; el estado LOCAL inicial cambia al primer tick.
+Usa una dimensión separada del enlace y define cuatro combinaciones. Red disponible con dato inválido debe conservar un diagnóstico distinto de sensor válido sin transporte. Dos etiquetas impresas no sustituyen implementar adquisición y transporte.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

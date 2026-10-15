@@ -1,5 +1,7 @@
 # Laboratorio 12: Distinguir datos numéricos de textos y rechazar mensajes incompletos
 
+**[Desarrollo paso a paso: Validar el significado de un documento JSON](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar

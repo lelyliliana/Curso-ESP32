@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 09
+# Soluciones desarrolladas de la Unidad 09
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Conserva ON; no hace toggle.
-2. Rechazo porque falta el booleano.
-3. El LED es la carga de laboratorio y no hay etapa de potencia ni realimentación.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Repetir PUT true
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+El resultado representado sigue true. No alterna. Se conserva la propiedad de solicitar un estado concreto, aunque no se midan sus efectos físicos.
 
-## Criterio de avance
+## 2. Enviar {}
 
-GET 200; PUT válido 200 y cambio LED. Tipo incorrecto/campo extra: 400 sin cambiar salida.
+Devuelve 400 antes de modificar activo. Prueba con el LED previamente ON y consulta después GET; debe conservarlo. Un rechazo no significa OFF.
 
-## Límite que debes poder explicar
+## 3. Carga de potencia
 
-No hay autenticación de esta API: solo LED en LAN de laboratorio. Unidad18 aborda transporte protegido.
+Un GPIO y un LED de laboratorio no constituyen driver, alimentación ni realimentación de un actuador. Ampliar a potencia requiere un diseño específico. Esta API local tampoco incorpora identidad de usuarios o autorización.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

@@ -1,5 +1,7 @@
 # Laboratorio 00: Identificar la placa antes de conectar periféricos
 
+**[Desarrollo paso a paso: Identificar la placa antes de trasladar un programa](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar

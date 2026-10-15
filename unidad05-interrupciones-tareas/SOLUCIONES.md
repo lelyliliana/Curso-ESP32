@@ -1,25 +1,25 @@
-# Soluciones razonadas del laboratorio 05
+# Soluciones desarrolladas de la Unidad 05
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. La ISR debe ser breve y evitar operaciones que bloquean.
-2. Acepta una entrada estable tras el intervalo, sin delay en ISR.
-3. La ISR responde a hardware; una tarea tiene planificación propia.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Imprimir en ISR
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Introduce trabajo largo y dependencias no apropiadas para la interrupción. La referencia actualiza el contador y representa una copia desde loop. Conserva las secciones críticas cortas.
 
-## Criterio de avance
+## 2. Estabilidad de 30 ms
 
-Flancos puede superar pulsaciones por rebote. La salida serial se realiza en loop, no en la ISR.
+Guarda nivel crudo, nivel aceptado y marca del último cambio. Cuando se mantenga el nuevo nivel 30 ms, acepta la transición; emite un evento solo al aceptar LOW. Contar flancos antes de estabilizar no equivale a contar pulsaciones.
 
-## Límite que debes poder explicar
+## 3. ISR frente a tarea
 
-No promete un contador de pulsaciones sin rebotes; FreeRTOS multitararea es ampliación de GUIA.md.
+La ISR atiende un evento de hardware en un contexto especial. Una tarea es planificada por FreeRTOS y puede esperar en primitivas como una cola. Usa operaciones compatibles con cada contexto y una política explícita de datos compartidos.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Cola llena
 
-## Tareas y cola
+La referencia omite el número cuyo envío agotó 100 ms. No crece indefinidamente ni guarda automáticamente en flash. Para demostrar pérdidas añade instrumentación, no una afirmación basada solo en ver algunos números recibidos.
 
-Bloquear el consumidor3s permite llenar la cola de4 elementos. La tarea espera hasta100ms por espacio y luego omite el envío; los huecos deben interpretarse como política de saturación del ejemplo. Copiar por cola no requiere leer una variable compartida sin protección. Restaura el consumidor rápido antes de continuar.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

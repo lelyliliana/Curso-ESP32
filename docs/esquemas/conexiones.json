@@ -1,0 +1,176 @@
+{
+  "led": {
+    "titulo": "Salida LED de laboratorio",
+    "conexiones": [
+      {
+        "origen": "GPIO25",
+        "elemento": "Resistencia 330 Ω",
+        "destino": "LED: ánodo → cátodo → GND",
+        "tipo": "s"
+      }
+    ],
+    "notas": [
+      "Referencia ESP32 clásico/WROOM-32, lógica 3.3 V. Una resistencia por LED.",
+      "El GPIO solicita una salida; este montaje no alimenta una carga de potencia."
+    ]
+  },
+  "boton-led": {
+    "titulo": "Botón local y LED independientes",
+    "conexiones": [
+      {
+        "origen": "GPIO27",
+        "elemento": "Contacto del botón",
+        "destino": "ESP32 GND",
+        "tipo": "s"
+      },
+      {
+        "origen": "GPIO25",
+        "elemento": "Resistencia 330 Ω",
+        "destino": "LED: A → K → GND",
+        "tipo": "s"
+      }
+    ],
+    "notas": [
+      "GPIO27 usa INPUT_PULLUP: abierto HIGH; contacto cerrado LOW.",
+      "Los números son GPIO, no posiciones físicas. A = ánodo; K = cátodo."
+    ]
+  },
+  "adc-pwm": {
+    "titulo": "Potenciómetro y salida PWM LEDC",
+    "conexiones": [
+      {
+        "origen": "ESP32 3V3",
+        "elemento": "Extremo 1",
+        "destino": "Potenciómetro 10 kΩ",
+        "tipo": "p"
+      },
+      {
+        "origen": "GPIO34 / ADC1",
+        "elemento": "Cursor",
+        "destino": "Potenciómetro 10 kΩ",
+        "tipo": "s"
+      },
+      {
+        "origen": "ESP32 GND",
+        "elemento": "Extremo 2",
+        "destino": "Potenciómetro 10 kΩ",
+        "tipo": "g"
+      },
+      {
+        "origen": "GPIO25",
+        "elemento": "Resistencia 330 Ω",
+        "destino": "LED: A → K → GND",
+        "tipo": "s"
+      }
+    ],
+    "notas": [
+      "Las tres filas del potenciómetro representan la misma pieza. NO alimentarlo a 5 V.",
+      "GPIO34 solo admite entrada en ESP32 clásico; la salida LEDC utiliza GPIO25."
+    ]
+  },
+  "sht31": {
+    "titulo": "SHT31 compatible con lógica y alimentación 3.3 V",
+    "conexiones": [
+      {
+        "origen": "ESP32 3V3",
+        "elemento": "Alimentación compatible",
+        "destino": "Módulo SHT31 VCC",
+        "tipo": "p"
+      },
+      {
+        "origen": "ESP32 GND",
+        "elemento": "Referencia común",
+        "destino": "Módulo SHT31 GND",
+        "tipo": "g"
+      },
+      {
+        "origen": "GPIO21",
+        "elemento": "Bus SDA",
+        "destino": "Módulo SHT31 SDA",
+        "tipo": "s"
+      },
+      {
+        "origen": "GPIO22",
+        "elemento": "Bus SCL",
+        "destino": "Módulo SHT31 SCL",
+        "tipo": "s"
+      }
+    ],
+    "notas": [
+      "Comprueba pull-ups del módulo: deben ir a tensión compatible, no a 5 V.",
+      "Dirección del ejemplo 0x44. ADDR, desacoplo y pinout se verifican por ficha."
+    ]
+  },
+  "spi": {
+    "titulo": "SPI loopback sin periférico",
+    "conexiones": [
+      {
+        "origen": "GPIO23 / MOSI",
+        "elemento": "ÚNICO PUENTE EXTERNO",
+        "destino": "GPIO19 / MISO",
+        "tipo": "s"
+      },
+      {
+        "origen": "GPIO18 / SCK",
+        "elemento": "Reloj configurado",
+        "destino": "Sin periférico conectado",
+        "tipo": "s"
+      },
+      {
+        "origen": "GPIO26 / CS",
+        "elemento": "Salida configurada",
+        "destino": "Sin periférico conectado",
+        "tipo": "s"
+      }
+    ],
+    "notas": [
+      "Solo se instala el puente MOSI→MISO. CS cambia LOW/HIGH por código.",
+      "La coincidencia A5 comprueba retorno local; no identifica ni lee un sensor SPI."
+    ]
+  },
+  "integrador": {
+    "titulo": "Integrador: SHT31, prioridad local y LED",
+    "conexiones": [
+      {
+        "origen": "ESP32 3V3",
+        "elemento": "Alimentación compatible",
+        "destino": "Módulo SHT31 VCC",
+        "tipo": "p"
+      },
+      {
+        "origen": "ESP32 GND",
+        "elemento": "Referencia común",
+        "destino": "Módulo SHT31 GND",
+        "tipo": "g"
+      },
+      {
+        "origen": "GPIO21",
+        "elemento": "SDA",
+        "destino": "Módulo SHT31 SDA",
+        "tipo": "s"
+      },
+      {
+        "origen": "GPIO22",
+        "elemento": "SCL",
+        "destino": "Módulo SHT31 SCL",
+        "tipo": "s"
+      },
+      {
+        "origen": "GPIO25",
+        "elemento": "Resistencia 330 Ω",
+        "destino": "LED: A → K → GND",
+        "tipo": "s"
+      },
+      {
+        "origen": "GPIO27",
+        "elemento": "Contacto del botón",
+        "destino": "ESP32 GND",
+        "tipo": "s"
+      }
+    ],
+    "notas": [
+      "Pull-ups I2C a tensión compatible 3.3 V. Comprueba módulo y dirección 0x44.",
+      "El LED responde al control remoto; el programa no lo enlaza a un umbral de temperatura."
+    ]
+  }
+}

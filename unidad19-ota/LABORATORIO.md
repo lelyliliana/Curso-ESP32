@@ -1,5 +1,7 @@
 # Laboratorio 19: Actualizar por OTA local y verificar versión después del arranque
 
+**[Desarrollo paso a paso: Actualizar por OTA y verificar el nuevo arranque](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar

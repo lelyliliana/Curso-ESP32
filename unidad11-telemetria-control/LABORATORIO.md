@@ -1,6 +1,16 @@
 # Laboratorio 11: Controlar un LED con comandos idempotentes y vencimiento local
 
+**[Desarrollo paso a paso: Separar orden, estado y vencimiento en MQTT](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
+
+
+## Esquema de conexiones
+
+Los diagramas identifican señales, no posiciones físicas. Usa la referencia clásica y confirma el pinout de tu tarjeta y módulo. [Atlas completo](../docs/ATLAS_CONEXIONES.md).
+
+![Salida LED de laboratorio](../docs/esquemas/led.svg)
+
 
 ## Qué vas a comprobar
 
@@ -8,7 +18,7 @@ Controlar un LED con comandos idempotentes y vencimiento local. Trabaja primero 
 
 ## Montaje y materiales
 
-LED25 y broker autenticado. No usar relay/motor.
+LED en GPIO25 y broker autenticado. No usar relay/motor.
 
 La referencia usa lógica de 3.3 V. GPIO25/27/34 y SDA21/SCL22 corresponden al perfil clásico; verifica que estén disponibles en tu tarjeta. No sustituyas pines a partir del color de cables ni de la posición física en una fotografía.
 

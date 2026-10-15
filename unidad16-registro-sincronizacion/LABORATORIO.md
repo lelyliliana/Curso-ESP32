@@ -1,5 +1,7 @@
 # Laboratorio 16: Reenviar un pendiente con identidad estable tras pérdida de respuesta
 
+**[Desarrollo paso a paso: Reenviar el mismo pendiente sin duplicar su identidad](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar

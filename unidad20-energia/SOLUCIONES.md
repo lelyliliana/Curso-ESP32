@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 20
+# Soluciones desarrolladas de la Unidad 20
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. No: vuelve a setup.
-2. Corriente media (100×1+1×10)/11=10 mA, solo modelo ilustrativo.
-3. Mide también componentes de placa; el instrumento y método importan.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Continuación del programa
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Deep sleep con despertar de esta referencia vuelve a ejecutar setup. No reanuda loop desde una instrucción suspendida. El contador RTC permite observar continuidad limitada entre esos despertares.
 
-## Criterio de avance
+## 2. Promedio del ejercicio
 
-Despierta aproximadamente cada 10 s; timer wakeup reportado y RTC incrementa mientras se conserva alimentación.
+La corriente media es `(100 mA × 1 s + 1 mA × 10 s) / 11 s = 10 mA`. La carga es 110 mA·s, equivalente a 0.110 C. Falta tensión para calcular energía; a 3.3 V hipotéticos sería 0.363 J por ciclo.
 
-## Límite que debes poder explicar
+## 3. Medición USB
 
-No afirma microamperios reales ni activa Wi-Fi; debes medir tu montaje.
+Incluye tarjeta, regulador, conversor y otros consumos según montaje. No demuestra corriente del chip aislado. Registra punto de medición, instrumento y duración de cada fase antes de extrapolar autonomía.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

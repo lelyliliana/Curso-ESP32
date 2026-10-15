@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 06
+# Soluciones desarrolladas de la Unidad 06
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Una IP local no demuestra acceso a un servidor.
-2. No aparece conectado; no debe imprimirse la clave.
-3. Reduce frecuencia de solicitudes pero puede demorar recuperación.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Wi-Fi e Internet
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+WL_CONNECTED e IP local describen el enlace de red. La salida a Internet y la disponibilidad de un servicio requieren comprobaciones adicionales. Un servidor local puede funcionar aunque no exista acceso externo.
 
-## Criterio de avance
+## 2. Clave incorrecta
 
-Aparecen IP, pérdida de Wi-Fi y tarea local durante la caída; vuelve IP al reconectar.
+Se esperan fallos de enlace y continuidad de la tarea local. Registra estados y tiempos sin imprimir la clave. Si el programa se reinicia, investiga ese síntoma por separado.
 
-## Límite que debes poder explicar
+## 3. Reintento cada 30 s
 
-setAutoReconnect también puede gestionar intentos; este laboratorio no garantiza el calendario interno del driver.
+Cambia el umbral 15000 del header a 30000 en una copia y compara las solicitudes manuales. La reconexión automática del core sigue habilitada: no prometas un único intento exacto cada 30 s. Modificar 2000 en el sketch afecta mensajes, no el intervalo manual de red.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

@@ -1,5 +1,7 @@
 # Laboratorio 20: Observar despertar por timer y memoria RTC
 
+**[Desarrollo paso a paso: Medir un ciclo de sueño sin confundir corriente y energía](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar
@@ -36,7 +38,7 @@ Lee `setup` para reconocer inicialización; `loop` para localizar tareas periód
 ## Ejercicios de comprobación
 
 1. ¿loop continúa desde la instrucción anterior?
-2. Calcula energía media con 100 mA durante 1 s y 1 mA durante 10 s.
+2. Calcula corriente media y carga con 100 mA durante 1 s y 1 mA durante 10 s. ¿Qué dato adicional necesitas para obtener energía?
 3. ¿USB prueba consumo del chip aislado?
 
 Consulta [SOLUCIONES.md](SOLUCIONES.md) después de predecir y ejecutar. La explicación debe vincular entrada, decisión y salida; una captura sin descripción no permite valorar comprensión.

@@ -1,5 +1,7 @@
 # Unidad 01 — Arquitectura, GPIO y elección de pines
 
+**[Desarrollo paso a paso: Relacionar GPIO, nivel eléctrico y significado](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
 ## Qué aprenderás

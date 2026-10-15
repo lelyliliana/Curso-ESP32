@@ -1,6 +1,16 @@
 # Laboratorio 09: Validar y aplicar una API de estado deseado
 
+**[Desarrollo paso a paso: Definir una API que representa un estado](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
+
+
+## Esquema de conexiones
+
+Los diagramas identifican señales, no posiciones físicas. Usa la referencia clásica y confirma el pinout de tu tarjeta y módulo. [Atlas completo](../docs/ATLAS_CONEXIONES.md).
+
+![Salida LED de laboratorio](../docs/esquemas/led.svg)
+
 
 ## Qué vas a comprobar
 

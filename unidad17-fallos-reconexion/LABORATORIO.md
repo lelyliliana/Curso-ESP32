@@ -1,5 +1,7 @@
 # Laboratorio 17: Ver crecimiento de backoff y reinicio tras recuperación
 
+**[Desarrollo paso a paso: Dar tiempo a recuperarse sin reintentar sin límite](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar

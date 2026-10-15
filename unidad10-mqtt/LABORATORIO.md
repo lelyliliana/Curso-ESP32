@@ -1,5 +1,7 @@
 # Laboratorio 10: Publicar telemetría mediante broker autenticado
 
+**[Desarrollo paso a paso: Seguir un mensaje MQTT y distinguir tres tópicos](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar

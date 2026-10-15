@@ -1,6 +1,18 @@
 # Laboratorio 04: Leer un sensor I2C con integridad del mensaje
 
+**[Desarrollo paso a paso: Leer un SHT31 completo y separar el ensayo SPI](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
+
+
+## Esquema de conexiones
+
+Los diagramas identifican señales, no posiciones físicas. Usa la referencia clásica y confirma el pinout de tu tarjeta y módulo. [Atlas completo](../docs/ATLAS_CONEXIONES.md).
+
+![SHT31 compatible con lógica y alimentación 3.3 V](../docs/esquemas/sht31.svg)
+
+![SPI loopback sin periférico](../docs/esquemas/spi.svg)
+
 
 ## Qué vas a comprobar
 

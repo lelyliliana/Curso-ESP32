@@ -1,6 +1,16 @@
 # Laboratorio 23: Integrar medición ambiental y control de LED
 
+**[Desarrollo paso a paso: Evaluar una integración por recorrido y por fallo](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
+
+
+## Esquema de conexiones
+
+Los diagramas identifican señales, no posiciones físicas. Usa la referencia clásica y confirma el pinout de tu tarjeta y módulo. [Atlas completo](../docs/ATLAS_CONEXIONES.md).
+
+![Integrador: SHT31, prioridad local y LED](../docs/esquemas/integrador.svg)
+
 
 ## Qué vas a comprobar
 
@@ -8,7 +18,7 @@ Integrar medición ambiental y control de LED. Trabaja primero con la referencia
 
 ## Montaje y materiales
 
-SHT31, LED25, pulsador27 y broker local. Requiere completar21 y22 por separado.
+SHT31, LED en GPIO25, pulsador en GPIO27 y broker local. Requiere completar21 y22 por separado.
 
 La referencia usa lógica de 3.3 V. GPIO25/27/34 y SDA21/SCL22 corresponden al perfil clásico; verifica que estén disponibles en tu tarjeta. No sustituyas pines a partir del color de cables ni de la posición física en una fotografía.
 

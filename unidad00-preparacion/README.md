@@ -1,5 +1,7 @@
 # Unidad 00 — Preparación, seguridad y placa ESP32
 
+**[Desarrollo paso a paso: Identificar la placa antes de trasladar un programa](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
 ## Qué aprenderás

@@ -1,5 +1,7 @@
 # Unidad 05 — Interrupciones, temporización y tareas
 
+**[Desarrollo paso a paso: Distinguir interrupción, tarea y dato compartido](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Volver al índice del curso](../README.md) · [Ver el curso en Aprende con Leli](https://lelyliliana.github.io/aprende-con-leli/cursos/esp32/)
 
 ## Qué aprenderás

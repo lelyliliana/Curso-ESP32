@@ -1,21 +1,25 @@
-# Soluciones razonadas del laboratorio 17
+# Soluciones desarrolladas de la Unidad 17
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Jitter, además de la espera exponencial.
-2. No: timeout limita llamada, backoff separa llamadas.
-3. Escoge parte aleatoria dentro de un límite y registra el valor usado.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Distribuir intentos
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Añade jitter con límites definidos. El patrón determinista puede sincronizar nodos; tener diferentes clientId no distribuye por sí solo sus tiempos de reconexión.
 
-## Criterio de avance
+## 2. Timeout
 
-Al recuperar detiene intentos; tras f vuelve a intervalo 1 s.
+Sigue siendo necesario. Backoff regula separación entre operaciones; timeout acota la espera dentro de una de ellas. Son controles complementarios.
 
-## Límite que debes poder explicar
+## 3. Jitter acotado
 
-El ejemplo enseña backoff determinista, no afirma que todos los clientes del curso ya lo implementen.
+Por ejemplo, para una base de 8000 ms elige un retraso entre 4000 y 8000, y para base 16000 entre 8000 y 16000. No añadas un valor positivo a 16000 sin recortar, porque superarías el máximo.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Detalle del reinicio
+
+r restablece intervalo y contador y detiene la simulación. f habilita y reinicia la marca del momento, pero no restablece los otros dos valores. Describe esa diferencia al probar recuperación y fallo nuevo.
+
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

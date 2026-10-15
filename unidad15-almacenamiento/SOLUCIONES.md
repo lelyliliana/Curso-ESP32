@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 15
+# Soluciones desarrolladas de la Unidad 15
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Consultas otro conjunto de claves.
-2. remove("arranques") dentro de namespace abierto, tras confirmar intención.
-3. Flash/capacidad/endurance son finitos.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Namespace diferente
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+Consulta otro espacio y puede devolver el predeterminado cero porque allí no existe la clave. No demuestra que se haya borrado el namespace curso.
 
-## Criterio de avance
+## 2. Reiniciar una clave
 
-El contador incrementa tras reset; borrar NVS devuelve el valor por defecto cero.
+Con begin del mismo namespace en modo escritura, usa remove sobre arranques y comprueba retorno. No borres todo el espacio si solo quieres reiniciar el contador. Después la primera lectura vuelve al valor predeterminado.
 
-## Límite que debes poder explicar
+## 3. NVS no ilimitada
 
-El contador puede desbordar y no es identidad global. No conserva hora UTC.
+Tiene capacidad finita, costos de escritura y comportamiento de flash. Una cola necesita política de ocupación, pérdida y recuperación; guardar un número no implementa esa estructura.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

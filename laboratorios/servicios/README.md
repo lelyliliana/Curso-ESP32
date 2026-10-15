@@ -57,7 +57,7 @@ docker run --rm --name leli-mqtt -p IP_LAN:1883:1883 -v "${PWD}/broker:/mosquitt
 8. Desde otra shell del mismo contenedor publica un comando: `XDG_CONFIG_HOME=/tmp/cliente mosquitto_pub -t curso/nodo01/command -m '{"activo":true}'`. **No agregues `-r`**: command no se retiene. Las comillas indicadas corresponden a sh, no a PowerShell.
 9. Prueba credenciales incorrectas en una copia privada del archivo y conserva el rechazo sin revelar secretos. Detén con Ctrl+C en la terminal principal.
 
-El usuario curso tiene acceso al prefijo nodo01 de esta LAN. No autentica diferentes emisores por separado ni cifra tráfico; son credenciales de práctica. Para entornos reales configura TLS/identidad por nodo y ACL separadas. No expongas1883 a Internet.
+El usuario curso tiene acceso al prefijo nodo01 de esta LAN. No autentica diferentes emisores por separado ni cifra tráfico; son credenciales de práctica. Para entornos reales configura TLS/identidad por nodo y ACL separadas. No expongas 1883 a Internet.
 
 ## Fallos reproducibles
 

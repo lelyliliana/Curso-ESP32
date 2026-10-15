@@ -1,21 +1,21 @@
-# Soluciones razonadas del laboratorio 12
+# Soluciones desarrolladas de la Unidad 12
 
-[Volver al laboratorio](LABORATORIO.md)
+[Laboratorio](LABORATORIO.md) · [Desarrollo paso a paso](DESARROLLO.md) · [Unidad](README.md)
 
-1. Ocultaría un emisor que incumple tipo.
-2. Solo demuestra validez sintáctica/rango.
-3. Introduce schema_version y reglas explícitas de aceptación.
+Intenta los ejercicios antes de comparar. Identifica qué condición explica cada resultado y qué parte del sistema fue comprobada.
 
-## Qué entregar
+## 1. Cadena a número
 
-Explica la predicción, conserva la entrada o modificación exacta y compara resultado esperado y observado. Para hardware registra GPIO y alimentación; para red registra códigos/estado sin credenciales. Cuando un experimento dependa del ambiente, una respuesta textual no sustituye la medición.
+La conversión silenciosa puede esconder un cambio de contrato y aceptar formatos no previstos. La referencia exige un valor JSON numérico antes de convertirlo. Si deseas admitir cadenas, define otro contrato y sus errores.
 
-## Criterio de avance
+## 2. 23.5 aceptado
 
-ACEPTADO, RECHAZADO, RECHAZADO, RECHAZADO; casos añadidos también rechazados.
+No demuestra precisión ni procedencia física. El programa usa un texto fijo. Sintaxis, tipo, rango, origen y exactitud son dimensiones diferentes.
 
-## Límite que debes poder explicar
+## 3. Versionado
 
-Contrato pequeño autónomo; el proyecto ambiental tiene además humedad y uptime y valida según su propio esquema.
+Añade una versión documentada, comprueba su tipo y valor y actualiza el número de campos aceptados y los productores. Incluye un caso de versión desconocida. El validador actual rechaza cualquier tercer campo, incluida una versión añadida unilateralmente.
 
-Un fallo detectado y explicado tiene valor formativo; no lo conviertas en éxito por cambiar el objetivo después de ejecutar. Para el proyecto conserva también intentos, pérdidas y condiciones que no pudiste reproducir.
+## Evidencia de la práctica
+
+Registra predicción, modificación exacta, resultado y condiciones en [EVIDENCIAS.md](../docs/EVIDENCIAS.md). Distingue dato simulado, prueba de servicio y montaje físico. No incluyas credenciales privadas.

@@ -1,5 +1,7 @@
 # Laboratorio 07: Observar contrato y fallos de un cliente HTTP
 
+**[Desarrollo paso a paso: Interpretar una petición HTTP de extremo a extremo](DESARROLLO.md)**. Sigue el código, las tablas y el experimento antes de resolver la práctica.
+
 [Unidad](README.md) · [Entorno común](../docs/ENTORNO.md) · [Servicios locales](../laboratorios/servicios/README.md)
 
 ## Qué vas a comprobar
